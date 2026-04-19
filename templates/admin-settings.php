@@ -32,21 +32,18 @@
 				<tr>
 					<th scope="row"><label for="bwg_model">Model Gemini</label></th>
 					<td>
-						<select id="bwg_model" name="bwg_model">
-							<?php
-							$current_model = get_option( 'bwg_model', 'gemini-2.5-flash' );
-							$models = [
-								'gemini-2.5-flash' => 'Gemini 2.5 Flash (zalecany)',
-								'gemini-2.5-pro'   => 'Gemini 2.5 Pro (lepsza jakość, wolniejszy)',
-								'gemini-2.0-flash' => 'Gemini 2.0 Flash (szybki)',
-							];
-							foreach ( $models as $val => $label ) :
-							?>
-							<option value="<?php echo esc_attr( $val ); ?>" <?php selected( $current_model, $val ); ?>>
-								<?php echo esc_html( $label ); ?>
+						<?php
+						$current_model = get_option( 'bwg_model', 'gemini-2.5-flash' );
+						$models        = bwg_get_models();
+						?>
+						<select id="bwg_model" name="bwg_model" class="bwg-model-select">
+							<?php foreach ( $models as $id => $m ) : ?>
+							<option value="<?php echo esc_attr( $id ); ?>" <?php selected( $current_model, $id ); ?>>
+								<?php echo esc_html( $m['name'] . ' — ' . $m['badge'] ); ?>
 							</option>
 							<?php endforeach; ?>
 						</select>
+						<div id="bwg-model-info" class="bwg-model-info"></div>
 					</td>
 				</tr>
 				<tr>

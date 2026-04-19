@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.2.0] - 2026-04-19
+
+### Added
+- Obsługa wszystkich modeli Gemini dostępnych w API (2.5 Flash, 2.5 Flash-Lite, 2.5 Pro, 3 Flash Preview, 3.1 Flash-Lite Preview, 3.1 Pro Preview)
+- Dynamiczna karta informacyjna przy wyborze modelu — opis, zastosowanie, cena za 1M tokenów, info o darmowym tierze
+- Helper `bwg_get_models()` z pełnymi metadanymi modeli
+
+### Changed
+- Panel ustawień: pole modelu zmienione z listy 3 opcji na pełną listę aktualnych modeli
+- Usunięto przestarzałe modele Gemini 2.0 (wycofywane 1 czerwca 2026)
+
 ## [3.1.0] - 2026-04-19
 
 ### Added

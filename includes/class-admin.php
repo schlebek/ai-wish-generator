@@ -64,6 +64,7 @@ class BWG_Admin {
 		wp_localize_script( 'bwg-admin', 'BWGAdmin', [
 			'ajax_url' => admin_url( 'admin-ajax.php' ),
 			'nonce'    => wp_create_nonce( 'bwg_admin' ),
+			'models'   => bwg_get_models(),
 		] );
 	}
 

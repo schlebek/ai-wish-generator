@@ -2,7 +2,30 @@
 (function ($) {
 	'use strict';
 
+	function renderModelInfo(modelId) {
+		var infoBox = document.getElementById('bwg-model-info');
+		if (!infoBox || !BWGAdmin.models) return;
+		var m = BWGAdmin.models[modelId];
+		if (!m) { infoBox.innerHTML = ''; return; }
+		var freeLabel = m.free
+			? '<span class="bwg-model-info__free">✓ Darmowy tier dostępny</span>'
+			: '<span class="bwg-model-info__paid">Tylko plan płatny</span>';
+		infoBox.innerHTML =
+			'<div class="bwg-model-info__badge">' + m.badge + '</div>' +
+			'<p class="bwg-model-info__desc">' + m.desc + '</p>' +
+			'<p class="bwg-model-info__price">💰 ' + m.price + '</p>' +
+			freeLabel;
+	}
+
 	$(document).ready(function () {
+		var modelSelect = document.getElementById('bwg_model');
+		if (modelSelect) {
+			renderModelInfo(modelSelect.value);
+			modelSelect.addEventListener('change', function () {
+				renderModelInfo(this.value);
+			});
+		}
+
 		var testBtn    = document.getElementById('bwg-test-api');
 		var testResult = document.getElementById('bwg-test-result');
 		if (!testBtn) return;

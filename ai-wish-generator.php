@@ -3,7 +3,7 @@
  * Plugin Name:  AI Wish Generator
  * Plugin URI:   https://bebetu.pl
  * Description:  Inteligentny generator życzeń zasilany przez Google Gemini AI — warianty, historia, statystyki, eksport JPG/PDF, karty z szablonami, ulepszanie tekstu AI.
- * Version:      3.1.0
+ * Version:      3.2.0
  * Author:       Bebetu.pl
  * Text Domain:  ai-wish-generator
  * Requires at least: 6.0
@@ -12,7 +12,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-define( 'BWG_VERSION',     '3.1.0' );
+define( 'BWG_VERSION',     '3.2.0' );
 define( 'BWG_PLUGIN_FILE',  __FILE__ );
 define( 'BWG_PLUGIN_DIR',   plugin_dir_path( __FILE__ ) );
 define( 'BWG_PLUGIN_URL',   plugin_dir_url( __FILE__ ) );
@@ -188,6 +188,53 @@ function bwg_get_tones(): array {
 		'krotki'      => 'Krótki i nowoczesny',
 		'oficjalny'   => 'Oficjalny i elegancki',
 		'poetycki'    => 'Poetycki i metaforyczny',
+	);
+}
+
+function bwg_get_models(): array {
+	return array(
+		'gemini-2.5-flash' => array(
+			'name'  => 'Gemini 2.5 Flash',
+			'badge' => 'Zalecany',
+			'desc'  => 'Najlepszy stosunek jakości do ceny. Szybki, inteligentny, świetny do generowania kreatywnych treści.',
+			'price' => '$0.30 / $2.50 za 1M tokenów (wejście / wyjście)',
+			'free'  => true,
+		),
+		'gemini-2.5-flash-lite' => array(
+			'name'  => 'Gemini 2.5 Flash-Lite',
+			'badge' => 'Najtańszy',
+			'desc'  => 'Najniższy koszt w rodzinie 2.5. Idealny przy dużym ruchu i prostych zadaniach.',
+			'price' => '$0.10 / $0.40 za 1M tokenów',
+			'free'  => true,
+		),
+		'gemini-2.5-pro' => array(
+			'name'  => 'Gemini 2.5 Pro',
+			'badge' => 'Najwyższa jakość',
+			'desc'  => 'Najinteligentniejszy model 2.5. Najlepsza kreatywność i rozumienie kontekstu. Wolniejszy i droższy.',
+			'price' => '$1.25 / $10.00 za 1M tokenów (do 200k ctx)',
+			'free'  => true,
+		),
+		'gemini-3-flash-preview' => array(
+			'name'  => 'Gemini 3 Flash Preview',
+			'badge' => 'Nowa generacja',
+			'desc'  => 'Model 3. generacji — lepsza jakość niż 2.5 Flash przy zbliżonym koszcie. Wciąż w fazie preview.',
+			'price' => '$0.50 / $3.00 za 1M tokenów',
+			'free'  => true,
+		),
+		'gemini-3.1-flash-lite-preview' => array(
+			'name'  => 'Gemini 3.1 Flash-Lite Preview',
+			'badge' => 'Nowa generacja · Tani',
+			'desc'  => 'Najtańszy model 3.x. Dobry kompromis kosztowy przy nowych możliwościach. W fazie preview.',
+			'price' => '$0.25 / $1.50 za 1M tokenów',
+			'free'  => true,
+		),
+		'gemini-3.1-pro-preview' => array(
+			'name'  => 'Gemini 3.1 Pro Preview',
+			'badge' => 'Najpotężniejszy',
+			'desc'  => 'Najbardziej zaawansowany dostępny model. Najwyższa kreatywność i jakość tekstu. Wyższy koszt, wolniejszy.',
+			'price' => '$2.00 / $12.00 za 1M tokenów (do 200k ctx)',
+			'free'  => false,
+		),
 	);
 }
 

@@ -124,6 +124,49 @@
 	max-width: 400px;
 }
 
+/* Model select */
+.bwg-model-select {
+	min-width: 320px;
+}
+
+.bwg-model-info {
+	margin-top: 10px;
+	padding: 12px 16px;
+	background: #f9f9f9;
+	border: 1px solid #e0e0e0;
+	border-left: 3px solid #ff6b6b;
+	border-radius: 0 8px 8px 0;
+	max-width: 480px;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+.bwg-model-info:empty { display: none; }
+
+.bwg-model-info__badge {
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	color: #ff6b6b;
+	margin-bottom: 6px;
+}
+
+.bwg-model-info__desc {
+	color: #444;
+	margin: 0 0 6px;
+}
+
+.bwg-model-info__price {
+	color: #555;
+	font-weight: 600;
+	margin: 0 0 6px;
+}
+
+.bwg-model-info__free  { color: #2e7d32; font-size: 12px; font-weight: 600; }
+.bwg-model-info__paid  { color: #c62828; font-size: 12px; font-weight: 600; }
+
 /* Test API result */
 .bwg-test-result {
 	font-size: 13px;
