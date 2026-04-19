@@ -18,6 +18,31 @@ WordPress plugin generating personalized wishes using Google Gemini AI. Availabl
 - **Rate limiting** — configurable daily limit per IP address
 - **Cache** — 24h transient cache for identical requests
 
+## Screenshots
+
+### Admin Settings — model selection with pricing info
+![Admin Settings](assets/screenshots/admin-settings.jpg)
+
+Choose from all available Gemini models. Each model displays a description, price per 1M tokens and free tier availability.
+
+---
+
+<!-- Add more screenshots below as you collect them:
+
+### Frontend — wish generator form
+![Frontend](assets/screenshots/frontend.jpg)
+
+### Generated wish cards
+![Results](assets/screenshots/results.jpg)
+
+### Gutenberg block in editor
+![Block Editor](assets/screenshots/gutenberg-block.jpg)
+
+### Admin Dashboard — statistics
+![Dashboard](assets/screenshots/admin-dashboard.jpg)
+
+-->
+
 ## Requirements
 
 - WordPress 6.0+
@@ -71,6 +96,17 @@ Navigate to **AI Wish** in the WordPress admin menu:
 | Model | `gemini-2.5-flash` | Gemini model to use |
 | Daily limit | `20` | Max generations per IP per day (0 = unlimited) |
 | Default variants | `3` | Default number of variants |
+
+## Available Models
+
+| Model | Best for | Price (input / output per 1M tokens) |
+|-------|----------|--------------------------------------|
+| Gemini 2.5 Flash | **Recommended** — best value | $0.30 / $2.50 |
+| Gemini 2.5 Flash-Lite | Cheapest — high traffic | $0.10 / $0.40 |
+| Gemini 2.5 Pro | Highest quality | $1.25 / $10.00 |
+| Gemini 3 Flash Preview | New generation | $0.50 / $3.00 |
+| Gemini 3.1 Flash-Lite Preview | New gen · budget | $0.25 / $1.50 |
+| Gemini 3.1 Pro Preview | Most powerful | $2.00 / $12.00 |
 
 ## License
 
