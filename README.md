@@ -20,6 +20,11 @@ WordPress plugin generating personalized wishes using Google Gemini AI. Availabl
 
 ## Screenshots
 
+### Frontend — wish generator form
+![Frontend](assets/screenshots/frontend.png)
+
+Sender, recipient, age, occasion, tone, length and rhyme mode. "Surprise me" button randomizes all options and generates instantly. "AI Improve" accordion below the form.
+
 ### Admin Settings — model selection with pricing info
 ![Admin Settings](assets/screenshots/admin-settings.jpg)
 
