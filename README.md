@@ -25,6 +25,11 @@ WordPress plugin generating personalized wishes using Google Gemini AI. Availabl
 
 Sender, recipient, age, occasion, tone, length and rhyme mode. "Surprise me" button randomizes all options and generates instantly. "AI Improve" accordion below the form.
 
+### Generated wish card with action buttons
+![Results](assets/screenshots/results.png)
+
+Each variant is an editable card with word/character counter and action buttons: copy, download as card (JPG/PDF), share on Facebook, WhatsApp, and AI improve.
+
 ### Admin Settings — model selection with pricing info
 ![Admin Settings](assets/screenshots/admin-settings.jpg)
 
