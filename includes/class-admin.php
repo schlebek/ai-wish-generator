@@ -11,25 +11,25 @@ class BWG_Admin {
 
 	public static function register_menu(): void {
 		add_menu_page(
-			'Bebetu AI Generator',
-			'Bebetu AI',
+			'AI Wish Generator',
+			'AI Wish',
 			'manage_options',
-			'bebetu-ai',
+			'ai-wish',
 			[ self::class, 'page_dashboard' ],
 			'dashicons-format-quote',
 			30
 		);
 		add_submenu_page(
-			'bebetu-ai', 'Statystyki', 'Statystyki',
-			'manage_options', 'bebetu-ai', [ self::class, 'page_dashboard' ]
+			'ai-wish', 'Statystyki', 'Statystyki',
+			'manage_options', 'ai-wish', [ self::class, 'page_dashboard' ]
 		);
 		add_submenu_page(
-			'bebetu-ai', 'Ustawienia', 'Ustawienia',
-			'manage_options', 'bebetu-ai-settings', [ self::class, 'page_settings' ]
+			'ai-wish', 'Ustawienia', 'Ustawienia',
+			'manage_options', 'ai-wish-settings', [ self::class, 'page_settings' ]
 		);
 		add_submenu_page(
-			'bebetu-ai', 'Historia życzeń', 'Historia',
-			'manage_options', 'bebetu-ai-history', [ self::class, 'page_history' ]
+			'ai-wish', 'Historia życzeń', 'Historia',
+			'manage_options', 'ai-wish-history', [ self::class, 'page_history' ]
 		);
 	}
 
@@ -52,7 +52,7 @@ class BWG_Admin {
 	}
 
 	public static function enqueue_assets( string $hook ): void {
-		if ( false === strpos( $hook, 'bebetu-ai' ) ) return;
+		if ( false === strpos( $hook, 'ai-wish' ) ) return;
 		wp_enqueue_style( 'bwg-admin', BWG_PLUGIN_URL . 'assets/css/admin.css', [], BWG_VERSION );
 		wp_enqueue_script(
 			'bwg-admin',

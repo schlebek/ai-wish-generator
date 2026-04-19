@@ -32,7 +32,7 @@ add_action( 'init',           'bwg_register_block' );
 function bwg_init(): void {
 	BWG_Admin::init();
 	BWG_Ajax::init();
-	add_shortcode( 'bebetu_ai_generator', 'bwg_shortcode' );
+	add_shortcode( 'ai_wish_generator', 'bwg_shortcode' );
 	add_action( 'wp_enqueue_scripts', 'bwg_register_assets' );
 }
 
@@ -104,7 +104,7 @@ function bwg_shortcode( array $atts ): string {
 			'variants'  => (string) (int) get_option( 'bwg_variants_default', 3 ),
 		),
 		$atts,
-		'bebetu_ai_generator'
+		'ai_wish_generator'
 	);
 
 	wp_enqueue_style( 'bwg-frontend' );

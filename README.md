@@ -29,14 +29,14 @@ WordPress plugin generating personalized wishes using Google Gemini AI. Availabl
 1. Download the plugin zip
 2. Go to **WordPress Admin → Plugins → Add New → Upload Plugin**
 3. Activate the plugin
-4. Go to **Bebetu AI → Settings** and enter your Gemini API key
+4. Go to **AI Wish → Settings** and enter your Gemini API key
 
 ## Usage
 
 ### Shortcode
 
 ```
-[bebetu_ai_generator]
+[ai_wish_generator]
 ```
 
 Optional attributes:
@@ -57,7 +57,7 @@ Search for **"AI Generator Życzeń"** in the block inserter. Configure variants
 
 ## Admin Panel
 
-Navigate to **Bebetu AI** in the WordPress admin menu:
+Navigate to **AI Wish** in the WordPress admin menu:
 
 - **Dashboard** — total generations, today's count, top occasions chart
 - **Settings** — API key, Gemini model, daily limit per IP, default variants

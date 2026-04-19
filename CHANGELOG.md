@@ -33,7 +33,7 @@
 ## [1.0.0] - 2026-04-10
 
 ### Added
-- Pierwsza wersja pluginu z podstawowym shortcode `[bebetu_ai_generator]`
+- Pierwsza wersja pluginu z podstawowym shortcode `[ai_wish_generator]`
 - Integracja z Google Gemini API (`gemini-2.5-flash`)
 - Formularz: od kogo, dla kogo, okazja, ton
 - Generowanie życzeń przez AJAX

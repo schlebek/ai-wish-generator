@@ -3,7 +3,7 @@
 
 	<h1 class="bwg-admin__page-title">
 		<span class="dashicons dashicons-list-view"></span>
-		Bebetu AI — Historia życzeń
+		AI Wish — Historia życzeń
 	</h1>
 
 	<p class="bwg-history__summary">

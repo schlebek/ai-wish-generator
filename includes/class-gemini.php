@@ -100,7 +100,7 @@ class BWG_Gemini {
 			? "\nŻyczenia muszą się rymować — użyj rymu AABB lub ABAB. Rymy mają być naturalne, nie wymuszone."
 			: '';
 
-		return "Jesteś ekspertem od relacji rodzinnych i copywriterem bloga parentingowego Bebetu.pl.
+		return "Jesteś ekspertem od relacji rodzinnych i doświadczonym copywriterem.
 Napisz życzenia z okazji: {$occasion}.
 Dla: {$recipient}. Od: {$sender}. {$age_info}
 Ton i styl: {$tone}.

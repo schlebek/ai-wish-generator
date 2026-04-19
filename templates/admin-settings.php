@@ -3,7 +3,7 @@
 
 	<h1 class="bwg-admin__page-title">
 		<span class="dashicons dashicons-admin-settings"></span>
-		Bebetu AI — Ustawienia
+		AI Wish — Ustawienia
 	</h1>
 
 	<?php settings_errors( 'bwg_settings_group' ); ?>

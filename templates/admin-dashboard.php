@@ -3,7 +3,7 @@
 
 	<h1 class="bwg-admin__page-title">
 		<span class="dashicons dashicons-format-quote"></span>
-		Bebetu AI — Statystyki
+		AI Wish — Statystyki
 	</h1>
 
 	<div class="bwg-stats-grid">
@@ -74,9 +74,9 @@
 	<div class="bwg-shortcode-hint bwg-panel">
 		<h2 class="bwg-panel__title">Shortcode</h2>
 		<p>Wklej na dowolnej stronie lub poście:</p>
-		<code>[bebetu_ai_generator]</code>
+		<code>[ai_wish_generator]</code>
 		<p style="margin-top:12px;">Opcjonalne atrybuty:</p>
-		<code>[bebetu_ai_generator occasions="urodziny,slub" tones="wzruszajacy,smieszny" variants="3"]</code>
+		<code>[ai_wish_generator occasions="urodziny,slub" tones="wzruszajacy,smieszny" variants="3"]</code>
 	</div>
 
 </div>
