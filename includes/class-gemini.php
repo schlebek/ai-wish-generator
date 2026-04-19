@@ -35,7 +35,7 @@ class BWG_Gemini {
 			],
 			'generationConfig' => [
 				'temperature'     => 0.9,
-				'maxOutputTokens' => 1200,
+				'maxOutputTokens' => 8192,
 			],
 		] );
 
