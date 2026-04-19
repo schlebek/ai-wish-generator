@@ -4,7 +4,7 @@
  * Plugin URI:   https://bebetu.pl
  * Description:  Inteligentny generator życzeń zasilany przez Google Gemini AI — warianty, historia, statystyki, eksport JPG/PDF, karty z szablonami, ulepszanie tekstu AI.
  * Version:      3.2.0
- * Author:       Bebetu.pl
+ * Author:       Stanisław Chlebek
  * Text Domain:  ai-wish-generator
  * Requires at least: 6.0
  * Requires PHP: 7.4
