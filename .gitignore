@@ -1,0 +1,13 @@
+# WordPress
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Build artifacts
+node_modules/
+vendor/

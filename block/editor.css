@@ -1,0 +1,40 @@
+/* AI Wish Generator — Block editor preview */
+
+.bwg-editor-preview {
+	background: #fffaf0;
+	border: 2px dashed #ff6b6b;
+	border-radius: 14px;
+	padding: 32px 24px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	user-select: none;
+}
+
+.bwg-editor-preview__icon {
+	font-size: 40px;
+	margin-bottom: 12px;
+	line-height: 1;
+}
+
+.bwg-editor-preview__title {
+	font-size: 18px;
+	font-weight: 700;
+	color: #ff6b6b;
+	margin: 0 0 8px;
+}
+
+.bwg-editor-preview__info {
+	font-size: 13px;
+	color: #888;
+	margin: 0 0 6px;
+	background: #fff3f3;
+	display: inline-block;
+	padding: 4px 12px;
+	border-radius: 20px;
+}
+
+.bwg-editor-preview__hint {
+	font-size: 12px;
+	color: #bbb;
+	margin: 8px 0 0;
+}
