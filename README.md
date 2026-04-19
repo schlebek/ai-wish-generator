@@ -25,6 +25,11 @@ WordPress plugin generating personalized wishes using Google Gemini AI. Availabl
 
 Choose from all available Gemini models. Each model displays a description, price per 1M tokens and free tier availability.
 
+### Admin Dashboard — statistics & shortcode reference
+![Admin Dashboard](assets/screenshots/admin-dashboard.png)
+
+Overview of total and daily generations, occasion popularity chart, active model and IP rate limit. Quick shortcode reference at the bottom.
+
 ---
 
 <!-- Add more screenshots below as you collect them:
@@ -37,9 +42,6 @@ Choose from all available Gemini models. Each model displays a description, pric
 
 ### Gutenberg block in editor
 ![Block Editor](assets/screenshots/gutenberg-block.jpg)
-
-### Admin Dashboard — statistics
-![Dashboard](assets/screenshots/admin-dashboard.jpg)
 
 -->
 
