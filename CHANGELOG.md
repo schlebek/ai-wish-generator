@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.4.0] - 2026-04-20
+
+### Added
+- Tłumaczenia na 9 języków: angielski, niemiecki, francuski, hiszpański, włoski, portugalski (BR), rosyjski, ukraiński, niderlandzki, czeski
+- Generator plików `.po` / `.mo` (`languages/generate.js`) — uruchom `node generate.js` po zmianach w stringach
+- Plik szablonu `.pot` dla nowych tłumaczów
+- Inteligentny fallback języka w `bwg_load_textdomain()`: `de_DE_formal` → `de_DE` → `de`
+
 ## [3.3.0] - 2026-04-19
 
 ### Added

@@ -1,0 +1,343 @@
+# Translation of AI Wish Generator into cs_CZ
+# Copyright (C) 2026 Stanisław Chlebek
+# This file is distributed under the same license as the AI Wish Generator plugin.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: ai-wish-generator/generate.js\n"
+
+msgid  "AI Wish Generator"
+msgstr ""
+
+msgid  "AI Wish"
+msgstr ""
+
+msgid  "Statystyki"
+msgstr "Statistiky"
+
+msgid  "Ustawienia"
+msgstr "Nastavení"
+
+msgid  "Historia życzeń"
+msgstr "Historie přání"
+
+msgid  "Historia"
+msgstr "Historie"
+
+msgid  "AI Wish — Statystyki"
+msgstr "AI Wish — Statistiky"
+
+msgid  "AI Wish — Ustawienia"
+msgstr "AI Wish — Nastavení"
+
+msgid  "AI Wish — Historia życzeń"
+msgstr "AI Wish — Historie přání"
+
+msgid  "Magiczny generator życzeń"
+msgstr "Kouzelný generátor přání"
+
+msgid  "Losuj okazję i ton"
+msgstr "Náhodná příležitost a tón"
+
+msgid  "Zaskocz mnie"
+msgstr "Překvap mě"
+
+msgid  "Od kogo?"
+msgstr "Od koho?"
+
+msgid  "np. Mama i Tata"
+msgstr "např. Maminka a Tatínek"
+
+msgid  "Dla kogo?"
+msgstr "Pro koho?"
+
+msgid  "np. dla naszej córeczki Lenki"
+msgstr "např. pro naši dcerku Lenku"
+
+msgid  "Wiek (opcjonalnie):"
+msgstr "Věk (volitelné):"
+
+msgid  "lat"
+msgstr "let"
+
+msgid  "Okazja:"
+msgstr "Příležitost:"
+
+msgid  "Ton i styl:"
+msgstr "Tón a styl:"
+
+msgid  "Długość:"
+msgstr "Délka:"
+
+msgid  "Tryb rymowany"
+msgstr "Rýmovaný režim"
+
+msgid  "Generuj przez AI ✨"
+msgstr "Generovat pomocí AI ✨"
+
+msgid  "Generujemy dla Ciebie piękne słowa…"
+msgstr "Vytváříme krásná slova pro vás…"
+
+msgid  "Ulepsz swoje życzenia przez AI"
+msgstr "Vylepšit přání pomocí AI"
+
+msgid  "Wklej gotowe życzenia (swoje lub z generatora) — AI je poprawi lub przekształci."
+msgstr "Vložte přání — AI je vylepší nebo přemění."
+
+msgid  "Treść życzeń do ulepszenia:"
+msgstr "Text přání k vylepšení:"
+
+msgid  "Wklej tutaj życzenia…"
+msgstr "Vložte přání sem…"
+
+msgid  "Kierunek ulepszenia:"
+msgstr "Směr vylepšení:"
+
+msgid  "Ulepsz ogólnie (usuń banalne frazy)"
+msgstr "Vylepšit obecně (odstranit klišé)"
+
+msgid  "Skróć do 2 zdań"
+msgstr "Zkrátit na 2 věty"
+
+msgid  "Przepisz jako rymowany wiersz"
+msgstr "Přepsat jako rýmovanou báseň"
+
+msgid  "Dodaj więcej emocji i głębi"
+msgstr "Přidat více emocí a hloubky"
+
+msgid  "Nadaj oficjalny, elegancki charakter"
+msgstr "Dát oficiální, elegantní charakter"
+
+msgid  "Ulepsz przez AI ✨"
+msgstr "Vylepšit pomocí AI ✨"
+
+msgid  "Ulepszona wersja"
+msgstr "Vylepšená verze"
+
+msgid  "Kopiuj"
+msgstr "Kopírovat"
+
+msgid  "Pobierz kartę"
+msgstr "Stáhnout kartu"
+
+msgid  "Wybierz szablon karty"
+msgstr "Vybrat šablonu karty"
+
+msgid  "Zamknij"
+msgstr "Zavřít"
+
+msgid  "Pobierz JPG"
+msgstr "Stáhnout JPG"
+
+msgid  "Pobierz PDF"
+msgstr "Stáhnout PDF"
+
+msgid  "Wypełnij pola „Od kogo\" i „Dla kogo\"."
+msgstr "Vyplňte prosím pole „Od koho\" a „Pro koho\"."
+
+msgid  "Generowanie…"
+msgstr "Generování…"
+
+msgid  "AI ulepsza…"
+msgstr "AI vylepšuje…"
+
+msgid  "Skopiowano!"
+msgstr "Zkopírováno!"
+
+msgid  "Wystąpił błąd. Spróbuj ponownie."
+msgstr "Došlo k chybě. Zkuste to prosím znovu."
+
+msgid  "Kliknij, aby edytować"
+msgstr "Klikněte pro úpravu"
+
+msgid  "słów"
+msgstr "slov"
+
+msgid  "znaków"
+msgstr "znaků"
+
+msgid  "Generator nie jest skonfigurowany. Skontaktuj się z administratorem."
+msgstr "Generátor není nakonfigurován. Kontaktujte správce."
+
+msgid  "Osiągnąłeś dzienny limit generowania życzeń. Wróć jutro!"
+msgstr "Dosáhli jste denního limitu. Vraťte se zítra!"
+
+msgid  "Proszę wypełnić pola „Od kogo\" i „Dla kogo\"."
+msgstr "Vyplňte prosím pole „Od koho\" a „Pro koho\"."
+
+msgid  "Nieprawidłowa okazja."
+msgstr "Neplatná příležitost."
+
+msgid  "Nieprawidłowy ton."
+msgstr "Neplatný tón."
+
+msgid  "Generator nie jest skonfigurowany."
+msgstr "Generátor není nakonfigurován."
+
+msgid  "Osiągnąłeś dzienny limit. Wróć jutro!"
+msgstr "Dosáhli jste denního limitu. Vraťte se zítra!"
+
+msgid  "Tekst do ulepszenia jest za krótki."
+msgstr "Text k vylepšení je příliš krátký."
+
+msgid  "Brak uprawnień."
+msgstr "Nedostatečná oprávnění."
+
+msgid  "Urodziny"
+msgstr "Narozeniny"
+
+msgid  "Chrzest Święty"
+msgstr "Křest"
+
+msgid  "Pierwszy Roczek"
+msgstr "První narozeniny"
+
+msgid  "Narodziny dziecka"
+msgstr "Narození dítěte"
+
+msgid  "Komunia Święta"
+msgstr "První přijímání"
+
+msgid  "Imieniny"
+msgstr "Svátek"
+
+msgid  "Ślub"
+msgstr "Svatba"
+
+msgid  "Rocznica Ślubu"
+msgstr "Výročí svatby"
+
+msgid  "Wielkanoc"
+msgstr "Velikonoce"
+
+msgid  "Boże Narodzenie"
+msgstr "Vánoce"
+
+msgid  "Awans / Sukces zawodowy"
+msgstr "Povýšení / Profesní úspěch"
+
+msgid  "Nowy Rok"
+msgstr "Nový rok"
+
+msgid  "Wzruszający i sentymentalny"
+msgstr "Dojemný a sentimentální"
+
+msgid  "Mądry i refleksyjny"
+msgstr "Moudrý a zamyšlený"
+
+msgid  "Śmieszny i rymowany"
+msgstr "Zábavný a rýmovaný"
+
+msgid  "Krótki i nowoczesny"
+msgstr "Krátký a moderní"
+
+msgid  "Oficjalny i elegancki"
+msgstr "Oficiální a elegantní"
+
+msgid  "Poetycki i metaforyczny"
+msgstr "Poetický a metaforický"
+
+msgid  "Krótkie (2 zdania)"
+msgstr "Krátké (2 věty)"
+
+msgid  "Standardowe (3–5 zdań)"
+msgstr "Standardní (3–5 vět)"
+
+msgid  "Rozbudowane (6–8 zdań)"
+msgstr "Rozšířené (6–8 vět)"
+
+msgid  "Wiersz / Poemat"
+msgstr "Báseň / Poéma"
+
+msgid  "API Google Gemini"
+msgstr ""
+
+msgid  "Klucz API"
+msgstr "Klíč API"
+
+msgid  "Klucz API z %s."
+msgstr "Klíč API z %s."
+
+msgid  "Model Gemini"
+msgstr "Model Gemini"
+
+msgid  "Test połączenia"
+msgstr "Test připojení"
+
+msgid  "Testuj klucz API"
+msgstr "Otestovat klíč API"
+
+msgid  "Generowanie"
+msgstr "Generování"
+
+msgid  "Dzienny limit na IP"
+msgstr "Denní limit na IP"
+
+msgid  "Maks. generowań (każde kliknięcie = 1). Wpisz 0 = brak limitu."
+msgstr "Max. generování (každý klik = 1). Zadejte 0 = bez limitu."
+
+msgid  "Domyślna liczba wariantów"
+msgstr "Výchozí počet variant"
+
+msgid  "Ile propozycji jednocześnie (1–5). Można nadpisać atrybutem shortcode %s."
+msgstr "Kolik návrhů najednou (1–5). Lze přepsat atributem shortcode %s."
+
+msgid  "Zapisz ustawienia"
+msgstr "Uložit nastavení"
+
+msgid  "Życzeń łącznie"
+msgstr "Přání celkem"
+
+msgid  "Dzisiaj"
+msgstr "Dnes"
+
+msgid  "Model AI"
+msgstr "Model AI"
+
+msgid  "Limit per IP"
+msgstr ""
+
+msgid  "Brak"
+msgstr "Žádný"
+
+msgid  "Popularność okazji"
+msgstr "Popularita příležitostí"
+
+msgid  "Okazja"
+msgstr "Příležitost"
+
+msgid  "Liczba życzeń"
+msgstr "Počet přání"
+
+msgid  "Udział"
+msgstr "Podíl"
+
+msgid  "Shortcode"
+msgstr ""
+
+msgid  "Wklej na dowolnej stronie lub poście:"
+msgstr "Vložte na libovolnou stránku nebo příspěvek:"
+
+msgid  "Opcjonalne atrybuty:"
+msgstr "Volitelné atributy:"
+
+msgid  "Łącznie: %1$s życzeń — strona %2$s z %3$s"
+msgstr "Celkem: %1$s přání — stránka %2$s z %3$s"
+
+msgid  "Brak wygenerowanych życzeń."
+msgstr "Žádná vygenerovaná přání."
+
+msgid  "Data"
+msgstr "Datum"
+
+msgid  "Ton"
+msgstr "Tón"
+
+msgid  "Od / Dla"
+msgstr "Od / Pro"
+
+msgid  "Treść życzeń"
+msgstr "Obsah přání"

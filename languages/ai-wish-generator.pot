@@ -1,0 +1,342 @@
+# AI Wish Generator translation template
+# Copyright (C) 2026 Stanisław Chlebek
+# This file is distributed under the same license as the AI Wish Generator plugin.
+#, fuzzy
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid  "AI Wish Generator"
+msgstr ""
+
+msgid  "AI Wish"
+msgstr ""
+
+msgid  "Statystyki"
+msgstr ""
+
+msgid  "Ustawienia"
+msgstr ""
+
+msgid  "Historia życzeń"
+msgstr ""
+
+msgid  "Historia"
+msgstr ""
+
+msgid  "AI Wish — Statystyki"
+msgstr ""
+
+msgid  "AI Wish — Ustawienia"
+msgstr ""
+
+msgid  "AI Wish — Historia życzeń"
+msgstr ""
+
+msgid  "Magiczny generator życzeń"
+msgstr ""
+
+msgid  "Losuj okazję i ton"
+msgstr ""
+
+msgid  "Zaskocz mnie"
+msgstr ""
+
+msgid  "Od kogo?"
+msgstr ""
+
+msgid  "np. Mama i Tata"
+msgstr ""
+
+msgid  "Dla kogo?"
+msgstr ""
+
+msgid  "np. dla naszej córeczki Lenki"
+msgstr ""
+
+msgid  "Wiek (opcjonalnie):"
+msgstr ""
+
+msgid  "lat"
+msgstr ""
+
+msgid  "Okazja:"
+msgstr ""
+
+msgid  "Ton i styl:"
+msgstr ""
+
+msgid  "Długość:"
+msgstr ""
+
+msgid  "Tryb rymowany"
+msgstr ""
+
+msgid  "Generuj przez AI ✨"
+msgstr ""
+
+msgid  "Generujemy dla Ciebie piękne słowa…"
+msgstr ""
+
+msgid  "Ulepsz swoje życzenia przez AI"
+msgstr ""
+
+msgid  "Wklej gotowe życzenia (swoje lub z generatora) — AI je poprawi lub przekształci."
+msgstr ""
+
+msgid  "Treść życzeń do ulepszenia:"
+msgstr ""
+
+msgid  "Wklej tutaj życzenia…"
+msgstr ""
+
+msgid  "Kierunek ulepszenia:"
+msgstr ""
+
+msgid  "Ulepsz ogólnie (usuń banalne frazy)"
+msgstr ""
+
+msgid  "Skróć do 2 zdań"
+msgstr ""
+
+msgid  "Przepisz jako rymowany wiersz"
+msgstr ""
+
+msgid  "Dodaj więcej emocji i głębi"
+msgstr ""
+
+msgid  "Nadaj oficjalny, elegancki charakter"
+msgstr ""
+
+msgid  "Ulepsz przez AI ✨"
+msgstr ""
+
+msgid  "Ulepszona wersja"
+msgstr ""
+
+msgid  "Kopiuj"
+msgstr ""
+
+msgid  "Pobierz kartę"
+msgstr ""
+
+msgid  "Wybierz szablon karty"
+msgstr ""
+
+msgid  "Zamknij"
+msgstr ""
+
+msgid  "Pobierz JPG"
+msgstr ""
+
+msgid  "Pobierz PDF"
+msgstr ""
+
+msgid  "Wypełnij pola „Od kogo\" i „Dla kogo\"."
+msgstr ""
+
+msgid  "Generowanie…"
+msgstr ""
+
+msgid  "AI ulepsza…"
+msgstr ""
+
+msgid  "Skopiowano!"
+msgstr ""
+
+msgid  "Wystąpił błąd. Spróbuj ponownie."
+msgstr ""
+
+msgid  "Kliknij, aby edytować"
+msgstr ""
+
+msgid  "słów"
+msgstr ""
+
+msgid  "znaków"
+msgstr ""
+
+msgid  "Generator nie jest skonfigurowany. Skontaktuj się z administratorem."
+msgstr ""
+
+msgid  "Osiągnąłeś dzienny limit generowania życzeń. Wróć jutro!"
+msgstr ""
+
+msgid  "Proszę wypełnić pola „Od kogo\" i „Dla kogo\"."
+msgstr ""
+
+msgid  "Nieprawidłowa okazja."
+msgstr ""
+
+msgid  "Nieprawidłowy ton."
+msgstr ""
+
+msgid  "Generator nie jest skonfigurowany."
+msgstr ""
+
+msgid  "Osiągnąłeś dzienny limit. Wróć jutro!"
+msgstr ""
+
+msgid  "Tekst do ulepszenia jest za krótki."
+msgstr ""
+
+msgid  "Brak uprawnień."
+msgstr ""
+
+msgid  "Urodziny"
+msgstr ""
+
+msgid  "Chrzest Święty"
+msgstr ""
+
+msgid  "Pierwszy Roczek"
+msgstr ""
+
+msgid  "Narodziny dziecka"
+msgstr ""
+
+msgid  "Komunia Święta"
+msgstr ""
+
+msgid  "Imieniny"
+msgstr ""
+
+msgid  "Ślub"
+msgstr ""
+
+msgid  "Rocznica Ślubu"
+msgstr ""
+
+msgid  "Wielkanoc"
+msgstr ""
+
+msgid  "Boże Narodzenie"
+msgstr ""
+
+msgid  "Awans / Sukces zawodowy"
+msgstr ""
+
+msgid  "Nowy Rok"
+msgstr ""
+
+msgid  "Wzruszający i sentymentalny"
+msgstr ""
+
+msgid  "Mądry i refleksyjny"
+msgstr ""
+
+msgid  "Śmieszny i rymowany"
+msgstr ""
+
+msgid  "Krótki i nowoczesny"
+msgstr ""
+
+msgid  "Oficjalny i elegancki"
+msgstr ""
+
+msgid  "Poetycki i metaforyczny"
+msgstr ""
+
+msgid  "Krótkie (2 zdania)"
+msgstr ""
+
+msgid  "Standardowe (3–5 zdań)"
+msgstr ""
+
+msgid  "Rozbudowane (6–8 zdań)"
+msgstr ""
+
+msgid  "Wiersz / Poemat"
+msgstr ""
+
+msgid  "API Google Gemini"
+msgstr ""
+
+msgid  "Klucz API"
+msgstr ""
+
+msgid  "Klucz API z %s."
+msgstr ""
+
+msgid  "Model Gemini"
+msgstr ""
+
+msgid  "Test połączenia"
+msgstr ""
+
+msgid  "Testuj klucz API"
+msgstr ""
+
+msgid  "Generowanie"
+msgstr ""
+
+msgid  "Dzienny limit na IP"
+msgstr ""
+
+msgid  "Maks. generowań (każde kliknięcie = 1). Wpisz 0 = brak limitu."
+msgstr ""
+
+msgid  "Domyślna liczba wariantów"
+msgstr ""
+
+msgid  "Ile propozycji jednocześnie (1–5). Można nadpisać atrybutem shortcode %s."
+msgstr ""
+
+msgid  "Zapisz ustawienia"
+msgstr ""
+
+msgid  "Życzeń łącznie"
+msgstr ""
+
+msgid  "Dzisiaj"
+msgstr ""
+
+msgid  "Model AI"
+msgstr ""
+
+msgid  "Limit per IP"
+msgstr ""
+
+msgid  "Brak"
+msgstr ""
+
+msgid  "Popularność okazji"
+msgstr ""
+
+msgid  "Okazja"
+msgstr ""
+
+msgid  "Liczba życzeń"
+msgstr ""
+
+msgid  "Udział"
+msgstr ""
+
+msgid  "Shortcode"
+msgstr ""
+
+msgid  "Wklej na dowolnej stronie lub poście:"
+msgstr ""
+
+msgid  "Opcjonalne atrybuty:"
+msgstr ""
+
+msgid  "Łącznie: %1$s życzeń — strona %2$s z %3$s"
+msgstr ""
+
+msgid  "Brak wygenerowanych życzeń."
+msgstr ""
+
+msgid  "Data"
+msgstr ""
+
+msgid  "Ton"
+msgstr ""
+
+msgid  "Od / Dla"
+msgstr ""
+
+msgid  "Treść życzeń"
+msgstr ""

@@ -1,0 +1,343 @@
+# Translation of AI Wish Generator into es_ES
+# Copyright (C) 2026 Stanisław Chlebek
+# This file is distributed under the same license as the AI Wish Generator plugin.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: ai-wish-generator/generate.js\n"
+
+msgid  "AI Wish Generator"
+msgstr ""
+
+msgid  "AI Wish"
+msgstr ""
+
+msgid  "Statystyki"
+msgstr "Estadísticas"
+
+msgid  "Ustawienia"
+msgstr "Ajustes"
+
+msgid  "Historia życzeń"
+msgstr "Historial de deseos"
+
+msgid  "Historia"
+msgstr "Historial"
+
+msgid  "AI Wish — Statystyki"
+msgstr "AI Wish — Estadísticas"
+
+msgid  "AI Wish — Ustawienia"
+msgstr "AI Wish — Ajustes"
+
+msgid  "AI Wish — Historia życzeń"
+msgstr "AI Wish — Historial de deseos"
+
+msgid  "Magiczny generator życzeń"
+msgstr "Generador mágico de deseos"
+
+msgid  "Losuj okazję i ton"
+msgstr "Aleatorizar ocasión y tono"
+
+msgid  "Zaskocz mnie"
+msgstr "Sorpréndeme"
+
+msgid  "Od kogo?"
+msgstr "¿De quién?"
+
+msgid  "np. Mama i Tata"
+msgstr "ej. Mamá y Papá"
+
+msgid  "Dla kogo?"
+msgstr "¿Para quién?"
+
+msgid  "np. dla naszej córeczki Lenki"
+msgstr "ej. para nuestra hija Lena"
+
+msgid  "Wiek (opcjonalnie):"
+msgstr "Edad (opcional):"
+
+msgid  "lat"
+msgstr "años"
+
+msgid  "Okazja:"
+msgstr "Ocasión:"
+
+msgid  "Ton i styl:"
+msgstr "Tono y estilo:"
+
+msgid  "Długość:"
+msgstr "Longitud:"
+
+msgid  "Tryb rymowany"
+msgstr "Modo rimado"
+
+msgid  "Generuj przez AI ✨"
+msgstr "Generar con IA ✨"
+
+msgid  "Generujemy dla Ciebie piękne słowa…"
+msgstr "Generando hermosas palabras para ti…"
+
+msgid  "Ulepsz swoje życzenia przez AI"
+msgstr "Mejora tus deseos con IA"
+
+msgid  "Wklej gotowe życzenia (swoje lub z generatora) — AI je poprawi lub przekształci."
+msgstr "Pega tus deseos — la IA los mejorará o transformará."
+
+msgid  "Treść życzeń do ulepszenia:"
+msgstr "Texto del deseo a mejorar:"
+
+msgid  "Wklej tutaj życzenia…"
+msgstr "Pega los deseos aquí…"
+
+msgid  "Kierunek ulepszenia:"
+msgstr "Dirección de mejora:"
+
+msgid  "Ulepsz ogólnie (usuń banalne frazy)"
+msgstr "Mejorar en general (eliminar clichés)"
+
+msgid  "Skróć do 2 zdań"
+msgstr "Acortar a 2 frases"
+
+msgid  "Przepisz jako rymowany wiersz"
+msgstr "Reescribir como poema rimado"
+
+msgid  "Dodaj więcej emocji i głębi"
+msgstr "Añadir más emoción y profundidad"
+
+msgid  "Nadaj oficjalny, elegancki charakter"
+msgstr "Dar carácter oficial y elegante"
+
+msgid  "Ulepsz przez AI ✨"
+msgstr "Mejorar con IA ✨"
+
+msgid  "Ulepszona wersja"
+msgstr "Versión mejorada"
+
+msgid  "Kopiuj"
+msgstr "Copiar"
+
+msgid  "Pobierz kartę"
+msgstr "Descargar tarjeta"
+
+msgid  "Wybierz szablon karty"
+msgstr "Elegir plantilla de tarjeta"
+
+msgid  "Zamknij"
+msgstr "Cerrar"
+
+msgid  "Pobierz JPG"
+msgstr "Descargar JPG"
+
+msgid  "Pobierz PDF"
+msgstr "Descargar PDF"
+
+msgid  "Wypełnij pola „Od kogo\" i „Dla kogo\"."
+msgstr "Por favor rellena los campos «De quién» y «Para quién»."
+
+msgid  "Generowanie…"
+msgstr "Generando…"
+
+msgid  "AI ulepsza…"
+msgstr "IA mejorando…"
+
+msgid  "Skopiowano!"
+msgstr "¡Copiado!"
+
+msgid  "Wystąpił błąd. Spróbuj ponownie."
+msgstr "Ha ocurrido un error. Por favor inténtalo de nuevo."
+
+msgid  "Kliknij, aby edytować"
+msgstr "Haz clic para editar"
+
+msgid  "słów"
+msgstr "palabras"
+
+msgid  "znaków"
+msgstr "caracteres"
+
+msgid  "Generator nie jest skonfigurowany. Skontaktuj się z administratorem."
+msgstr "El generador no está configurado. Contacta al administrador."
+
+msgid  "Osiągnąłeś dzienny limit generowania życzeń. Wróć jutro!"
+msgstr "Has alcanzado el límite diario. ¡Vuelve mañana!"
+
+msgid  "Proszę wypełnić pola „Od kogo\" i „Dla kogo\"."
+msgstr "Por favor rellena los campos «De quién» y «Para quién»."
+
+msgid  "Nieprawidłowa okazja."
+msgstr "Ocasión no válida."
+
+msgid  "Nieprawidłowy ton."
+msgstr "Tono no válido."
+
+msgid  "Generator nie jest skonfigurowany."
+msgstr "El generador no está configurado."
+
+msgid  "Osiągnąłeś dzienny limit. Wróć jutro!"
+msgstr "Has alcanzado el límite diario. ¡Vuelve mañana!"
+
+msgid  "Tekst do ulepszenia jest za krótki."
+msgstr "El texto a mejorar es demasiado corto."
+
+msgid  "Brak uprawnień."
+msgstr "Permisos insuficientes."
+
+msgid  "Urodziny"
+msgstr "Cumpleaños"
+
+msgid  "Chrzest Święty"
+msgstr "Bautizo"
+
+msgid  "Pierwszy Roczek"
+msgstr "Primer cumpleaños"
+
+msgid  "Narodziny dziecka"
+msgstr "Nacimiento de un niño"
+
+msgid  "Komunia Święta"
+msgstr "Primera comunión"
+
+msgid  "Imieniny"
+msgstr "Día del santo"
+
+msgid  "Ślub"
+msgstr "Boda"
+
+msgid  "Rocznica Ślubu"
+msgstr "Aniversario de boda"
+
+msgid  "Wielkanoc"
+msgstr "Pascua"
+
+msgid  "Boże Narodzenie"
+msgstr "Navidad"
+
+msgid  "Awans / Sukces zawodowy"
+msgstr "Ascenso / Éxito profesional"
+
+msgid  "Nowy Rok"
+msgstr "Año Nuevo"
+
+msgid  "Wzruszający i sentymentalny"
+msgstr "Emotivo y sentimental"
+
+msgid  "Mądry i refleksyjny"
+msgstr "Sabio y reflexivo"
+
+msgid  "Śmieszny i rymowany"
+msgstr "Divertido y rimado"
+
+msgid  "Krótki i nowoczesny"
+msgstr "Corto y moderno"
+
+msgid  "Oficjalny i elegancki"
+msgstr "Oficial y elegante"
+
+msgid  "Poetycki i metaforyczny"
+msgstr "Poético y metafórico"
+
+msgid  "Krótkie (2 zdania)"
+msgstr "Corto (2 frases)"
+
+msgid  "Standardowe (3–5 zdań)"
+msgstr "Estándar (3–5 frases)"
+
+msgid  "Rozbudowane (6–8 zdań)"
+msgstr "Extendido (6–8 frases)"
+
+msgid  "Wiersz / Poemat"
+msgstr "Poema / Verso"
+
+msgid  "API Google Gemini"
+msgstr ""
+
+msgid  "Klucz API"
+msgstr "Clave API"
+
+msgid  "Klucz API z %s."
+msgstr "Clave API de %s."
+
+msgid  "Model Gemini"
+msgstr "Modelo Gemini"
+
+msgid  "Test połączenia"
+msgstr "Prueba de conexión"
+
+msgid  "Testuj klucz API"
+msgstr "Probar clave API"
+
+msgid  "Generowanie"
+msgstr "Generación"
+
+msgid  "Dzienny limit na IP"
+msgstr "Límite diario por IP"
+
+msgid  "Maks. generowań (każde kliknięcie = 1). Wpisz 0 = brak limitu."
+msgstr "Máx. generaciones (cada clic = 1). Introduce 0 = sin límite."
+
+msgid  "Domyślna liczba wariantów"
+msgstr "Número predeterminado de variantes"
+
+msgid  "Ile propozycji jednocześnie (1–5). Można nadpisać atrybutem shortcode %s."
+msgstr "Cuántas propuestas a la vez (1–5). Se puede reemplazar con el atributo shortcode %s."
+
+msgid  "Zapisz ustawienia"
+msgstr "Guardar ajustes"
+
+msgid  "Życzeń łącznie"
+msgstr "Deseos totales"
+
+msgid  "Dzisiaj"
+msgstr "Hoy"
+
+msgid  "Model AI"
+msgstr "Modelo IA"
+
+msgid  "Limit per IP"
+msgstr ""
+
+msgid  "Brak"
+msgstr "Ninguno"
+
+msgid  "Popularność okazji"
+msgstr "Popularidad de ocasiones"
+
+msgid  "Okazja"
+msgstr "Ocasión"
+
+msgid  "Liczba życzeń"
+msgstr "Número de deseos"
+
+msgid  "Udział"
+msgstr "Proporción"
+
+msgid  "Shortcode"
+msgstr ""
+
+msgid  "Wklej na dowolnej stronie lub poście:"
+msgstr "Pega en cualquier página o entrada:"
+
+msgid  "Opcjonalne atrybuty:"
+msgstr "Atributos opcionales:"
+
+msgid  "Łącznie: %1$s życzeń — strona %2$s z %3$s"
+msgstr "Total: %1$s deseos — página %2$s de %3$s"
+
+msgid  "Brak wygenerowanych życzeń."
+msgstr "No hay deseos generados."
+
+msgid  "Data"
+msgstr "Fecha"
+
+msgid  "Ton"
+msgstr "Tono"
+
+msgid  "Od / Dla"
+msgstr "De / Para"
+
+msgid  "Treść życzeń"
+msgstr "Contenido del deseo"

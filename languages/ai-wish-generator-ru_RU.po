@@ -1,0 +1,343 @@
+# Translation of AI Wish Generator into ru_RU
+# Copyright (C) 2026 Stanisław Chlebek
+# This file is distributed under the same license as the AI Wish Generator plugin.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: ai-wish-generator/generate.js\n"
+
+msgid  "AI Wish Generator"
+msgstr ""
+
+msgid  "AI Wish"
+msgstr ""
+
+msgid  "Statystyki"
+msgstr "Статистика"
+
+msgid  "Ustawienia"
+msgstr "Настройки"
+
+msgid  "Historia życzeń"
+msgstr "История пожеланий"
+
+msgid  "Historia"
+msgstr "История"
+
+msgid  "AI Wish — Statystyki"
+msgstr "AI Wish — Статистика"
+
+msgid  "AI Wish — Ustawienia"
+msgstr "AI Wish — Настройки"
+
+msgid  "AI Wish — Historia życzeń"
+msgstr "AI Wish — История пожеланий"
+
+msgid  "Magiczny generator życzeń"
+msgstr "Волшебный генератор пожеланий"
+
+msgid  "Losuj okazję i ton"
+msgstr "Случайный повод и тон"
+
+msgid  "Zaskocz mnie"
+msgstr "Удиви меня"
+
+msgid  "Od kogo?"
+msgstr "От кого?"
+
+msgid  "np. Mama i Tata"
+msgstr "напр. Мама и Папа"
+
+msgid  "Dla kogo?"
+msgstr "Для кого?"
+
+msgid  "np. dla naszej córeczki Lenki"
+msgstr "напр. для нашей дочери Лены"
+
+msgid  "Wiek (opcjonalnie):"
+msgstr "Возраст (необязательно):"
+
+msgid  "lat"
+msgstr "лет"
+
+msgid  "Okazja:"
+msgstr "Повод:"
+
+msgid  "Ton i styl:"
+msgstr "Тон и стиль:"
+
+msgid  "Długość:"
+msgstr "Длина:"
+
+msgid  "Tryb rymowany"
+msgstr "Режим рифмовки"
+
+msgid  "Generuj przez AI ✨"
+msgstr "Создать с помощью ИИ ✨"
+
+msgid  "Generujemy dla Ciebie piękne słowa…"
+msgstr "Создаём красивые слова для вас…"
+
+msgid  "Ulepsz swoje życzenia przez AI"
+msgstr "Улучшить пожелания с ИИ"
+
+msgid  "Wklej gotowe życzenia (swoje lub z generatora) — AI je poprawi lub przekształci."
+msgstr "Вставьте пожелания — ИИ улучшит или преобразует их."
+
+msgid  "Treść życzeń do ulepszenia:"
+msgstr "Текст пожеланий для улучшения:"
+
+msgid  "Wklej tutaj życzenia…"
+msgstr "Вставьте пожелания здесь…"
+
+msgid  "Kierunek ulepszenia:"
+msgstr "Направление улучшения:"
+
+msgid  "Ulepsz ogólnie (usuń banalne frazy)"
+msgstr "Улучшить в целом (убрать клише)"
+
+msgid  "Skróć do 2 zdań"
+msgstr "Сократить до 2 предложений"
+
+msgid  "Przepisz jako rymowany wiersz"
+msgstr "Переписать как рифмованное стихотворение"
+
+msgid  "Dodaj więcej emocji i głębi"
+msgstr "Добавить больше эмоций и глубины"
+
+msgid  "Nadaj oficjalny, elegancki charakter"
+msgstr "Придать официальный, элегантный характер"
+
+msgid  "Ulepsz przez AI ✨"
+msgstr "Улучшить с ИИ ✨"
+
+msgid  "Ulepszona wersja"
+msgstr "Улучшенная версия"
+
+msgid  "Kopiuj"
+msgstr "Копировать"
+
+msgid  "Pobierz kartę"
+msgstr "Скачать открытку"
+
+msgid  "Wybierz szablon karty"
+msgstr "Выбрать шаблон открытки"
+
+msgid  "Zamknij"
+msgstr "Закрыть"
+
+msgid  "Pobierz JPG"
+msgstr "Скачать JPG"
+
+msgid  "Pobierz PDF"
+msgstr "Скачать PDF"
+
+msgid  "Wypełnij pola „Od kogo\" i „Dla kogo\"."
+msgstr "Пожалуйста, заполните поля «От кого» и «Для кого»."
+
+msgid  "Generowanie…"
+msgstr "Генерация…"
+
+msgid  "AI ulepsza…"
+msgstr "ИИ улучшает…"
+
+msgid  "Skopiowano!"
+msgstr "Скопировано!"
+
+msgid  "Wystąpił błąd. Spróbuj ponownie."
+msgstr "Произошла ошибка. Пожалуйста, попробуйте снова."
+
+msgid  "Kliknij, aby edytować"
+msgstr "Нажмите для редактирования"
+
+msgid  "słów"
+msgstr "слов"
+
+msgid  "znaków"
+msgstr "символов"
+
+msgid  "Generator nie jest skonfigurowany. Skontaktuj się z administratorem."
+msgstr "Генератор не настроен. Свяжитесь с администратором."
+
+msgid  "Osiągnąłeś dzienny limit generowania życzeń. Wróć jutro!"
+msgstr "Вы достигли дневного лимита. Возвращайтесь завтра!"
+
+msgid  "Proszę wypełnić pola „Od kogo\" i „Dla kogo\"."
+msgstr "Пожалуйста, заполните поля «От кого» и «Для кого»."
+
+msgid  "Nieprawidłowa okazja."
+msgstr "Недопустимый повод."
+
+msgid  "Nieprawidłowy ton."
+msgstr "Недопустимый тон."
+
+msgid  "Generator nie jest skonfigurowany."
+msgstr "Генератор не настроен."
+
+msgid  "Osiągnąłeś dzienny limit. Wróć jutro!"
+msgstr "Вы достигли дневного лимита. Возвращайтесь завтра!"
+
+msgid  "Tekst do ulepszenia jest za krótki."
+msgstr "Текст для улучшения слишком короткий."
+
+msgid  "Brak uprawnień."
+msgstr "Недостаточно прав."
+
+msgid  "Urodziny"
+msgstr "День рождения"
+
+msgid  "Chrzest Święty"
+msgstr "Крещение"
+
+msgid  "Pierwszy Roczek"
+msgstr "Первый день рождения"
+
+msgid  "Narodziny dziecka"
+msgstr "Рождение ребёнка"
+
+msgid  "Komunia Święta"
+msgstr "Первое причастие"
+
+msgid  "Imieniny"
+msgstr "Именины"
+
+msgid  "Ślub"
+msgstr "Свадьба"
+
+msgid  "Rocznica Ślubu"
+msgstr "Годовщина свадьбы"
+
+msgid  "Wielkanoc"
+msgstr "Пасха"
+
+msgid  "Boże Narodzenie"
+msgstr "Рождество"
+
+msgid  "Awans / Sukces zawodowy"
+msgstr "Повышение / Профессиональный успех"
+
+msgid  "Nowy Rok"
+msgstr "Новый год"
+
+msgid  "Wzruszający i sentymentalny"
+msgstr "Трогательный и сентиментальный"
+
+msgid  "Mądry i refleksyjny"
+msgstr "Мудрый и задумчивый"
+
+msgid  "Śmieszny i rymowany"
+msgstr "Смешной и рифмованный"
+
+msgid  "Krótki i nowoczesny"
+msgstr "Короткий и современный"
+
+msgid  "Oficjalny i elegancki"
+msgstr "Официальный и элегантный"
+
+msgid  "Poetycki i metaforyczny"
+msgstr "Поэтический и метафорический"
+
+msgid  "Krótkie (2 zdania)"
+msgstr "Короткое (2 предложения)"
+
+msgid  "Standardowe (3–5 zdań)"
+msgstr "Стандартное (3–5 предложений)"
+
+msgid  "Rozbudowane (6–8 zdań)"
+msgstr "Расширенное (6–8 предложений)"
+
+msgid  "Wiersz / Poemat"
+msgstr "Стихотворение / Поэма"
+
+msgid  "API Google Gemini"
+msgstr ""
+
+msgid  "Klucz API"
+msgstr "Ключ API"
+
+msgid  "Klucz API z %s."
+msgstr "Ключ API от %s."
+
+msgid  "Model Gemini"
+msgstr "Модель Gemini"
+
+msgid  "Test połączenia"
+msgstr "Тест подключения"
+
+msgid  "Testuj klucz API"
+msgstr "Протестировать ключ API"
+
+msgid  "Generowanie"
+msgstr "Генерация"
+
+msgid  "Dzienny limit na IP"
+msgstr "Дневной лимит на IP"
+
+msgid  "Maks. generowań (każde kliknięcie = 1). Wpisz 0 = brak limitu."
+msgstr "Макс. генераций (каждый клик = 1). Введите 0 = без лимита."
+
+msgid  "Domyślna liczba wariantów"
+msgstr "Количество вариантов по умолчанию"
+
+msgid  "Ile propozycji jednocześnie (1–5). Można nadpisać atrybutem shortcode %s."
+msgstr "Сколько вариантов одновременно (1–5). Можно переопределить атрибутом шорткода %s."
+
+msgid  "Zapisz ustawienia"
+msgstr "Сохранить настройки"
+
+msgid  "Życzeń łącznie"
+msgstr "Всего пожеланий"
+
+msgid  "Dzisiaj"
+msgstr "Сегодня"
+
+msgid  "Model AI"
+msgstr "Модель ИИ"
+
+msgid  "Limit per IP"
+msgstr ""
+
+msgid  "Brak"
+msgstr "Нет"
+
+msgid  "Popularność okazji"
+msgstr "Популярность поводов"
+
+msgid  "Okazja"
+msgstr "Повод"
+
+msgid  "Liczba życzeń"
+msgstr "Количество пожеланий"
+
+msgid  "Udział"
+msgstr "Доля"
+
+msgid  "Shortcode"
+msgstr ""
+
+msgid  "Wklej na dowolnej stronie lub poście:"
+msgstr "Вставьте на любой странице или записи:"
+
+msgid  "Opcjonalne atrybuty:"
+msgstr "Дополнительные атрибуты:"
+
+msgid  "Łącznie: %1$s życzeń — strona %2$s z %3$s"
+msgstr "Всего: %1$s пожеланий — страница %2$s из %3$s"
+
+msgid  "Brak wygenerowanych życzeń."
+msgstr "Нет сгенерированных пожеланий."
+
+msgid  "Data"
+msgstr "Дата"
+
+msgid  "Ton"
+msgstr "Тон"
+
+msgid  "Od / Dla"
+msgstr "От / Для"
+
+msgid  "Treść życzeń"
+msgstr "Содержание пожелания"

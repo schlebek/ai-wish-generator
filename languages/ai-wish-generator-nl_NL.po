@@ -1,0 +1,343 @@
+# Translation of AI Wish Generator into nl_NL
+# Copyright (C) 2026 Stanisław Chlebek
+# This file is distributed under the same license as the AI Wish Generator plugin.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: ai-wish-generator/generate.js\n"
+
+msgid  "AI Wish Generator"
+msgstr ""
+
+msgid  "AI Wish"
+msgstr ""
+
+msgid  "Statystyki"
+msgstr "Statistieken"
+
+msgid  "Ustawienia"
+msgstr "Instellingen"
+
+msgid  "Historia życzeń"
+msgstr "Wensgeschiedenis"
+
+msgid  "Historia"
+msgstr "Geschiedenis"
+
+msgid  "AI Wish — Statystyki"
+msgstr "AI Wish — Statistieken"
+
+msgid  "AI Wish — Ustawienia"
+msgstr "AI Wish — Instellingen"
+
+msgid  "AI Wish — Historia życzeń"
+msgstr "AI Wish — Wensgeschiedenis"
+
+msgid  "Magiczny generator życzeń"
+msgstr "Magische wensgenerator"
+
+msgid  "Losuj okazję i ton"
+msgstr "Willekeurige gelegenheid en toon"
+
+msgid  "Zaskocz mnie"
+msgstr "Verras me"
+
+msgid  "Od kogo?"
+msgstr "Van wie?"
+
+msgid  "np. Mama i Tata"
+msgstr "bijv. Mama en Papa"
+
+msgid  "Dla kogo?"
+msgstr "Voor wie?"
+
+msgid  "np. dla naszej córeczki Lenki"
+msgstr "bijv. voor onze dochter Lena"
+
+msgid  "Wiek (opcjonalnie):"
+msgstr "Leeftijd (optioneel):"
+
+msgid  "lat"
+msgstr "jaar"
+
+msgid  "Okazja:"
+msgstr "Gelegenheid:"
+
+msgid  "Ton i styl:"
+msgstr "Toon en stijl:"
+
+msgid  "Długość:"
+msgstr "Lengte:"
+
+msgid  "Tryb rymowany"
+msgstr "Rijmmodus"
+
+msgid  "Generuj przez AI ✨"
+msgstr "Genereren met AI ✨"
+
+msgid  "Generujemy dla Ciebie piękne słowa…"
+msgstr "We maken mooie woorden voor jou…"
+
+msgid  "Ulepsz swoje życzenia przez AI"
+msgstr "Verbeter je wensen met AI"
+
+msgid  "Wklej gotowe życzenia (swoje lub z generatora) — AI je poprawi lub przekształci."
+msgstr "Plak je wensen — AI zal ze verbeteren of transformeren."
+
+msgid  "Treść życzeń do ulepszenia:"
+msgstr "Wenstekst om te verbeteren:"
+
+msgid  "Wklej tutaj życzenia…"
+msgstr "Plak wensen hier…"
+
+msgid  "Kierunek ulepszenia:"
+msgstr "Verbeterrichting:"
+
+msgid  "Ulepsz ogólnie (usuń banalne frazy)"
+msgstr "Algemeen verbeteren (clichés verwijderen)"
+
+msgid  "Skróć do 2 zdań"
+msgstr "Inkorten tot 2 zinnen"
+
+msgid  "Przepisz jako rymowany wiersz"
+msgstr "Herschrijven als rijmend gedicht"
+
+msgid  "Dodaj więcej emocji i głębi"
+msgstr "Meer emotie en diepte toevoegen"
+
+msgid  "Nadaj oficjalny, elegancki charakter"
+msgstr "Officieel, elegant karakter geven"
+
+msgid  "Ulepsz przez AI ✨"
+msgstr "Verbeteren met AI ✨"
+
+msgid  "Ulepszona wersja"
+msgstr "Verbeterde versie"
+
+msgid  "Kopiuj"
+msgstr "Kopiëren"
+
+msgid  "Pobierz kartę"
+msgstr "Kaart downloaden"
+
+msgid  "Wybierz szablon karty"
+msgstr "Kaartsjabloon kiezen"
+
+msgid  "Zamknij"
+msgstr "Sluiten"
+
+msgid  "Pobierz JPG"
+msgstr "JPG downloaden"
+
+msgid  "Pobierz PDF"
+msgstr "PDF downloaden"
+
+msgid  "Wypełnij pola „Od kogo\" i „Dla kogo\"."
+msgstr "Vul de velden «Van wie» en «Voor wie» in."
+
+msgid  "Generowanie…"
+msgstr "Genereren…"
+
+msgid  "AI ulepsza…"
+msgstr "AI verbetert…"
+
+msgid  "Skopiowano!"
+msgstr "Gekopieerd!"
+
+msgid  "Wystąpił błąd. Spróbuj ponownie."
+msgstr "Er is een fout opgetreden. Probeer het opnieuw."
+
+msgid  "Kliknij, aby edytować"
+msgstr "Klik om te bewerken"
+
+msgid  "słów"
+msgstr "woorden"
+
+msgid  "znaków"
+msgstr "tekens"
+
+msgid  "Generator nie jest skonfigurowany. Skontaktuj się z administratorem."
+msgstr "Generator is niet geconfigureerd. Neem contact op met de beheerder."
+
+msgid  "Osiągnąłeś dzienny limit generowania życzeń. Wróć jutro!"
+msgstr "U heeft de dagelijkse limiet bereikt. Kom morgen terug!"
+
+msgid  "Proszę wypełnić pola „Od kogo\" i „Dla kogo\"."
+msgstr "Vul de velden «Van wie» en «Voor wie» in."
+
+msgid  "Nieprawidłowa okazja."
+msgstr "Ongeldige gelegenheid."
+
+msgid  "Nieprawidłowy ton."
+msgstr "Ongeldige toon."
+
+msgid  "Generator nie jest skonfigurowany."
+msgstr "Generator is niet geconfigureerd."
+
+msgid  "Osiągnąłeś dzienny limit. Wróć jutro!"
+msgstr "U heeft de dagelijkse limiet bereikt. Kom morgen terug!"
+
+msgid  "Tekst do ulepszenia jest za krótki."
+msgstr "De te verbeteren tekst is te kort."
+
+msgid  "Brak uprawnień."
+msgstr "Onvoldoende rechten."
+
+msgid  "Urodziny"
+msgstr "Verjaardag"
+
+msgid  "Chrzest Święty"
+msgstr "Heilige Doop"
+
+msgid  "Pierwszy Roczek"
+msgstr "Eerste verjaardag"
+
+msgid  "Narodziny dziecka"
+msgstr "Geboorte van een kind"
+
+msgid  "Komunia Święta"
+msgstr "Eerste Heilige Communie"
+
+msgid  "Imieniny"
+msgstr "Naamdag"
+
+msgid  "Ślub"
+msgstr "Bruiloft"
+
+msgid  "Rocznica Ślubu"
+msgstr "Huwelijksjubileum"
+
+msgid  "Wielkanoc"
+msgstr "Pasen"
+
+msgid  "Boże Narodzenie"
+msgstr "Kerstmis"
+
+msgid  "Awans / Sukces zawodowy"
+msgstr "Promotie / Professioneel succes"
+
+msgid  "Nowy Rok"
+msgstr "Nieuwjaar"
+
+msgid  "Wzruszający i sentymentalny"
+msgstr "Ontroerend en sentimenteel"
+
+msgid  "Mądry i refleksyjny"
+msgstr "Wijs en bezinnelijk"
+
+msgid  "Śmieszny i rymowany"
+msgstr "Grappig en rijmend"
+
+msgid  "Krótki i nowoczesny"
+msgstr "Kort en modern"
+
+msgid  "Oficjalny i elegancki"
+msgstr "Officieel en elegant"
+
+msgid  "Poetycki i metaforyczny"
+msgstr "Poëtisch en metaforisch"
+
+msgid  "Krótkie (2 zdania)"
+msgstr "Kort (2 zinnen)"
+
+msgid  "Standardowe (3–5 zdań)"
+msgstr "Standaard (3–5 zinnen)"
+
+msgid  "Rozbudowane (6–8 zdań)"
+msgstr "Uitgebreid (6–8 zinnen)"
+
+msgid  "Wiersz / Poemat"
+msgstr "Gedicht / Poëzie"
+
+msgid  "API Google Gemini"
+msgstr ""
+
+msgid  "Klucz API"
+msgstr "API-sleutel"
+
+msgid  "Klucz API z %s."
+msgstr "API-sleutel van %s."
+
+msgid  "Model Gemini"
+msgstr "Gemini-model"
+
+msgid  "Test połączenia"
+msgstr "Verbindingstest"
+
+msgid  "Testuj klucz API"
+msgstr "API-sleutel testen"
+
+msgid  "Generowanie"
+msgstr "Genereren"
+
+msgid  "Dzienny limit na IP"
+msgstr "Dagelijkse limiet per IP"
+
+msgid  "Maks. generowań (każde kliknięcie = 1). Wpisz 0 = brak limitu."
+msgstr "Max. generaties (elke klik = 1). Voer 0 in = geen limiet."
+
+msgid  "Domyślna liczba wariantów"
+msgstr "Standaard aantal varianten"
+
+msgid  "Ile propozycji jednocześnie (1–5). Można nadpisać atrybutem shortcode %s."
+msgstr "Hoeveel voorstellen tegelijk (1–5). Kan worden overschreven met shortcode-attribuut %s."
+
+msgid  "Zapisz ustawienia"
+msgstr "Instellingen opslaan"
+
+msgid  "Życzeń łącznie"
+msgstr "Totaal wensen"
+
+msgid  "Dzisiaj"
+msgstr "Vandaag"
+
+msgid  "Model AI"
+msgstr "AI-model"
+
+msgid  "Limit per IP"
+msgstr ""
+
+msgid  "Brak"
+msgstr "Geen"
+
+msgid  "Popularność okazji"
+msgstr "Populariteit van gelegenheden"
+
+msgid  "Okazja"
+msgstr "Gelegenheid"
+
+msgid  "Liczba życzeń"
+msgstr "Aantal wensen"
+
+msgid  "Udział"
+msgstr "Aandeel"
+
+msgid  "Shortcode"
+msgstr ""
+
+msgid  "Wklej na dowolnej stronie lub poście:"
+msgstr "Plak op elke pagina of bericht:"
+
+msgid  "Opcjonalne atrybuty:"
+msgstr "Optionele attributen:"
+
+msgid  "Łącznie: %1$s życzeń — strona %2$s z %3$s"
+msgstr "Totaal: %1$s wensen — pagina %2$s van %3$s"
+
+msgid  "Brak wygenerowanych życzeń."
+msgstr "Geen gegenereerde wensen."
+
+msgid  "Data"
+msgstr "Datum"
+
+msgid  "Ton"
+msgstr "Toon"
+
+msgid  "Od / Dla"
+msgstr "Van / Voor"
+
+msgid  "Treść życzeń"
+msgstr "Wensinhoud"

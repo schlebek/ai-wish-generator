@@ -3,7 +3,7 @@
  * Plugin Name:  AI Wish Generator
  * Plugin URI:   https://bebetu.pl
  * Description:  Inteligentny generator życzeń zasilany przez Google Gemini AI — warianty, historia, statystyki, eksport JPG/PDF, karty z szablonami, ulepszanie tekstu AI.
- * Version:      3.3.0
+ * Version:      3.4.0
  * Author:       Stanisław Chlebek
  * Text Domain:  ai-wish-generator
  * Requires at least: 6.0
@@ -12,7 +12,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-define( 'BWG_VERSION',     '3.3.0' );
+define( 'BWG_VERSION',     '3.4.0' );
 define( 'BWG_PLUGIN_FILE',  __FILE__ );
 define( 'BWG_PLUGIN_DIR',   plugin_dir_path( __FILE__ ) );
 define( 'BWG_PLUGIN_URL',   plugin_dir_url( __FILE__ ) );
@@ -31,7 +31,33 @@ add_action( 'init',           'bwg_register_block' );
 add_action( 'init',           'bwg_load_textdomain' );
 
 function bwg_load_textdomain(): void {
-	load_plugin_textdomain( 'ai-wish-generator', false, dirname( plugin_basename( BWG_PLUGIN_FILE ) ) . '/languages' );
+	$rel_dir = dirname( plugin_basename( BWG_PLUGIN_FILE ) ) . '/languages';
+
+	// 1) Try exact locale (e.g. de_DE, de_DE_formal) from WP_LANG_DIR first,
+	//    then from the plugin's own languages/ directory.
+	if ( load_plugin_textdomain( 'ai-wish-generator', false, $rel_dir ) ) {
+		return;
+	}
+
+	// 2) Fallback: strip regional/formal variant (de_DE_formal → de_DE, pt_PT → pt_PT).
+	$locale = determine_locale();
+	$parts  = explode( '_', $locale );
+	if ( count( $parts ) > 2 ) {
+		$base = $parts[0] . '_' . $parts[1];
+		$file = BWG_PLUGIN_DIR . 'languages/ai-wish-generator-' . $base . '.mo';
+		if ( file_exists( $file ) ) {
+			load_textdomain( 'ai-wish-generator', $file );
+			return;
+		}
+	}
+
+	// 3) Fallback: language-only code (e.g. de, fr, uk).
+	$lang_only = $parts[0];
+	$file      = BWG_PLUGIN_DIR . 'languages/ai-wish-generator-' . $lang_only . '.mo';
+	if ( file_exists( $file ) ) {
+		load_textdomain( 'ai-wish-generator', $file );
+	}
+	// If nothing matched, Polish source strings are displayed (intended default).
 }
 
 function bwg_init(): void {

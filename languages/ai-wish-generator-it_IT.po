@@ -1,0 +1,343 @@
+# Translation of AI Wish Generator into it_IT
+# Copyright (C) 2026 Stanisław Chlebek
+# This file is distributed under the same license as the AI Wish Generator plugin.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: ai-wish-generator/generate.js\n"
+
+msgid  "AI Wish Generator"
+msgstr ""
+
+msgid  "AI Wish"
+msgstr ""
+
+msgid  "Statystyki"
+msgstr "Statistiche"
+
+msgid  "Ustawienia"
+msgstr "Impostazioni"
+
+msgid  "Historia życzeń"
+msgstr "Storico auguri"
+
+msgid  "Historia"
+msgstr "Storico"
+
+msgid  "AI Wish — Statystyki"
+msgstr "AI Wish — Statistiche"
+
+msgid  "AI Wish — Ustawienia"
+msgstr "AI Wish — Impostazioni"
+
+msgid  "AI Wish — Historia życzeń"
+msgstr "AI Wish — Storico auguri"
+
+msgid  "Magiczny generator życzeń"
+msgstr "Generatore magico di auguri"
+
+msgid  "Losuj okazję i ton"
+msgstr "Casuale per occasione e tono"
+
+msgid  "Zaskocz mnie"
+msgstr "Sorprendimi"
+
+msgid  "Od kogo?"
+msgstr "Da chi?"
+
+msgid  "np. Mama i Tata"
+msgstr "es. Mamma e Papà"
+
+msgid  "Dla kogo?"
+msgstr "Per chi?"
+
+msgid  "np. dla naszej córeczki Lenki"
+msgstr "es. per nostra figlia Lena"
+
+msgid  "Wiek (opcjonalnie):"
+msgstr "Età (opzionale):"
+
+msgid  "lat"
+msgstr "anni"
+
+msgid  "Okazja:"
+msgstr "Occasione:"
+
+msgid  "Ton i styl:"
+msgstr "Tono e stile:"
+
+msgid  "Długość:"
+msgstr "Lunghezza:"
+
+msgid  "Tryb rymowany"
+msgstr "Modalità in rima"
+
+msgid  "Generuj przez AI ✨"
+msgstr "Genera con IA ✨"
+
+msgid  "Generujemy dla Ciebie piękne słowa…"
+msgstr "Stiamo creando belle parole per te…"
+
+msgid  "Ulepsz swoje życzenia przez AI"
+msgstr "Migliora i tuoi auguri con IA"
+
+msgid  "Wklej gotowe życzenia (swoje lub z generatora) — AI je poprawi lub przekształci."
+msgstr "Incolla i tuoi auguri — l'IA li migliorerà o trasformerà."
+
+msgid  "Treść życzeń do ulepszenia:"
+msgstr "Testo degli auguri da migliorare:"
+
+msgid  "Wklej tutaj życzenia…"
+msgstr "Incolla gli auguri qui…"
+
+msgid  "Kierunek ulepszenia:"
+msgstr "Direzione miglioramento:"
+
+msgid  "Ulepsz ogólnie (usuń banalne frazy)"
+msgstr "Miglioramento generale (rimuovere cliché)"
+
+msgid  "Skróć do 2 zdań"
+msgstr "Abbrevia a 2 frasi"
+
+msgid  "Przepisz jako rymowany wiersz"
+msgstr "Riscrivi come poesia in rima"
+
+msgid  "Dodaj więcej emocji i głębi"
+msgstr "Aggiungi più emozione e profondità"
+
+msgid  "Nadaj oficjalny, elegancki charakter"
+msgstr "Dai carattere ufficiale ed elegante"
+
+msgid  "Ulepsz przez AI ✨"
+msgstr "Migliora con IA ✨"
+
+msgid  "Ulepszona wersja"
+msgstr "Versione migliorata"
+
+msgid  "Kopiuj"
+msgstr "Copia"
+
+msgid  "Pobierz kartę"
+msgstr "Scarica biglietto"
+
+msgid  "Wybierz szablon karty"
+msgstr "Scegli modello biglietto"
+
+msgid  "Zamknij"
+msgstr "Chiudi"
+
+msgid  "Pobierz JPG"
+msgstr "Scarica JPG"
+
+msgid  "Pobierz PDF"
+msgstr "Scarica PDF"
+
+msgid  "Wypełnij pola „Od kogo\" i „Dla kogo\"."
+msgstr "Compila i campi «Da chi» e «Per chi»."
+
+msgid  "Generowanie…"
+msgstr "Generazione…"
+
+msgid  "AI ulepsza…"
+msgstr "IA migliora…"
+
+msgid  "Skopiowano!"
+msgstr "Copiato!"
+
+msgid  "Wystąpił błąd. Spróbuj ponownie."
+msgstr "Si è verificato un errore. Riprova."
+
+msgid  "Kliknij, aby edytować"
+msgstr "Clicca per modificare"
+
+msgid  "słów"
+msgstr "parole"
+
+msgid  "znaków"
+msgstr "caratteri"
+
+msgid  "Generator nie jest skonfigurowany. Skontaktuj się z administratorem."
+msgstr "Il generatore non è configurato. Contatta l'amministratore."
+
+msgid  "Osiągnąłeś dzienny limit generowania życzeń. Wróć jutro!"
+msgstr "Hai raggiunto il limite giornaliero. Torna domani!"
+
+msgid  "Proszę wypełnić pola „Od kogo\" i „Dla kogo\"."
+msgstr "Compila i campi «Da chi» e «Per chi»."
+
+msgid  "Nieprawidłowa okazja."
+msgstr "Occasione non valida."
+
+msgid  "Nieprawidłowy ton."
+msgstr "Tono non valido."
+
+msgid  "Generator nie jest skonfigurowany."
+msgstr "Il generatore non è configurato."
+
+msgid  "Osiągnąłeś dzienny limit. Wróć jutro!"
+msgstr "Hai raggiunto il limite giornaliero. Torna domani!"
+
+msgid  "Tekst do ulepszenia jest za krótki."
+msgstr "Il testo da migliorare è troppo corto."
+
+msgid  "Brak uprawnień."
+msgstr "Permessi insufficienti."
+
+msgid  "Urodziny"
+msgstr "Compleanno"
+
+msgid  "Chrzest Święty"
+msgstr "Battesimo"
+
+msgid  "Pierwszy Roczek"
+msgstr "Primo compleanno"
+
+msgid  "Narodziny dziecka"
+msgstr "Nascita di un bambino"
+
+msgid  "Komunia Święta"
+msgstr "Prima comunione"
+
+msgid  "Imieniny"
+msgstr "Onomastico"
+
+msgid  "Ślub"
+msgstr "Matrimonio"
+
+msgid  "Rocznica Ślubu"
+msgstr "Anniversario di matrimonio"
+
+msgid  "Wielkanoc"
+msgstr "Pasqua"
+
+msgid  "Boże Narodzenie"
+msgstr "Natale"
+
+msgid  "Awans / Sukces zawodowy"
+msgstr "Promozione / Successo professionale"
+
+msgid  "Nowy Rok"
+msgstr "Capodanno"
+
+msgid  "Wzruszający i sentymentalny"
+msgstr "Commovente e sentimentale"
+
+msgid  "Mądry i refleksyjny"
+msgstr "Saggio e riflessivo"
+
+msgid  "Śmieszny i rymowany"
+msgstr "Divertente e in rima"
+
+msgid  "Krótki i nowoczesny"
+msgstr "Breve e moderno"
+
+msgid  "Oficjalny i elegancki"
+msgstr "Ufficiale ed elegante"
+
+msgid  "Poetycki i metaforyczny"
+msgstr "Poetico e metaforico"
+
+msgid  "Krótkie (2 zdania)"
+msgstr "Breve (2 frasi)"
+
+msgid  "Standardowe (3–5 zdań)"
+msgstr "Standard (3–5 frasi)"
+
+msgid  "Rozbudowane (6–8 zdań)"
+msgstr "Esteso (6–8 frasi)"
+
+msgid  "Wiersz / Poemat"
+msgstr "Poesia / Poema"
+
+msgid  "API Google Gemini"
+msgstr ""
+
+msgid  "Klucz API"
+msgstr "Chiave API"
+
+msgid  "Klucz API z %s."
+msgstr "Chiave API da %s."
+
+msgid  "Model Gemini"
+msgstr "Modello Gemini"
+
+msgid  "Test połączenia"
+msgstr "Test connessione"
+
+msgid  "Testuj klucz API"
+msgstr "Testa chiave API"
+
+msgid  "Generowanie"
+msgstr "Generazione"
+
+msgid  "Dzienny limit na IP"
+msgstr "Limite giornaliero per IP"
+
+msgid  "Maks. generowań (każde kliknięcie = 1). Wpisz 0 = brak limitu."
+msgstr "Generazioni massime (ogni clic = 1). Inserisci 0 = nessun limite."
+
+msgid  "Domyślna liczba wariantów"
+msgstr "Numero predefinito di varianti"
+
+msgid  "Ile propozycji jednocześnie (1–5). Można nadpisać atrybutem shortcode %s."
+msgstr "Quante proposte contemporaneamente (1–5). Può essere sostituito con l'attributo shortcode %s."
+
+msgid  "Zapisz ustawienia"
+msgstr "Salva impostazioni"
+
+msgid  "Życzeń łącznie"
+msgstr "Auguri totali"
+
+msgid  "Dzisiaj"
+msgstr "Oggi"
+
+msgid  "Model AI"
+msgstr "Modello IA"
+
+msgid  "Limit per IP"
+msgstr ""
+
+msgid  "Brak"
+msgstr "Nessuno"
+
+msgid  "Popularność okazji"
+msgstr "Popolarità occasioni"
+
+msgid  "Okazja"
+msgstr "Occasione"
+
+msgid  "Liczba życzeń"
+msgstr "Numero di auguri"
+
+msgid  "Udział"
+msgstr "Quota"
+
+msgid  "Shortcode"
+msgstr ""
+
+msgid  "Wklej na dowolnej stronie lub poście:"
+msgstr "Incolla in qualsiasi pagina o articolo:"
+
+msgid  "Opcjonalne atrybuty:"
+msgstr "Attributi opzionali:"
+
+msgid  "Łącznie: %1$s życzeń — strona %2$s z %3$s"
+msgstr "Totale: %1$s auguri — pagina %2$s di %3$s"
+
+msgid  "Brak wygenerowanych życzeń."
+msgstr "Nessun augurio generato."
+
+msgid  "Data"
+msgstr "Data"
+
+msgid  "Ton"
+msgstr "Tono"
+
+msgid  "Od / Dla"
+msgstr "Da / Per"
+
+msgid  "Treść życzeń"
+msgstr "Contenuto augurio"

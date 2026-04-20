@@ -1,0 +1,343 @@
+# Translation of AI Wish Generator into de_DE
+# Copyright (C) 2026 Stanisław Chlebek
+# This file is distributed under the same license as the AI Wish Generator plugin.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: ai-wish-generator/generate.js\n"
+
+msgid  "AI Wish Generator"
+msgstr ""
+
+msgid  "AI Wish"
+msgstr ""
+
+msgid  "Statystyki"
+msgstr "Statistiken"
+
+msgid  "Ustawienia"
+msgstr "Einstellungen"
+
+msgid  "Historia życzeń"
+msgstr "Wunschverlauf"
+
+msgid  "Historia"
+msgstr "Verlauf"
+
+msgid  "AI Wish — Statystyki"
+msgstr "AI Wish — Statistiken"
+
+msgid  "AI Wish — Ustawienia"
+msgstr "AI Wish — Einstellungen"
+
+msgid  "AI Wish — Historia życzeń"
+msgstr "AI Wish — Wunschverlauf"
+
+msgid  "Magiczny generator życzeń"
+msgstr "Magischer Wunschgenerator"
+
+msgid  "Losuj okazję i ton"
+msgstr "Anlass und Ton zufällig wählen"
+
+msgid  "Zaskocz mnie"
+msgstr "Überrasch mich"
+
+msgid  "Od kogo?"
+msgstr "Von wem?"
+
+msgid  "np. Mama i Tata"
+msgstr "z.B. Mama und Papa"
+
+msgid  "Dla kogo?"
+msgstr "Für wen?"
+
+msgid  "np. dla naszej córeczki Lenki"
+msgstr "z.B. für unsere Tochter Lena"
+
+msgid  "Wiek (opcjonalnie):"
+msgstr "Alter (optional):"
+
+msgid  "lat"
+msgstr "Jahre"
+
+msgid  "Okazja:"
+msgstr "Anlass:"
+
+msgid  "Ton i styl:"
+msgstr "Ton und Stil:"
+
+msgid  "Długość:"
+msgstr "Länge:"
+
+msgid  "Tryb rymowany"
+msgstr "Reimtextmodus"
+
+msgid  "Generuj przez AI ✨"
+msgstr "Mit KI generieren ✨"
+
+msgid  "Generujemy dla Ciebie piękne słowa…"
+msgstr "Wir erstellen schöne Worte für dich…"
+
+msgid  "Ulepsz swoje życzenia przez AI"
+msgstr "Verbessere deine Wünsche mit KI"
+
+msgid  "Wklej gotowe życzenia (swoje lub z generatora) — AI je poprawi lub przekształci."
+msgstr "Füge fertige Wünsche ein — die KI wird sie verbessern oder umwandeln."
+
+msgid  "Treść życzeń do ulepszenia:"
+msgstr "Wunschtext zum Verbessern:"
+
+msgid  "Wklej tutaj życzenia…"
+msgstr "Wünsche hier einfügen…"
+
+msgid  "Kierunek ulepszenia:"
+msgstr "Verbesserungsrichtung:"
+
+msgid  "Ulepsz ogólnie (usuń banalne frazy)"
+msgstr "Allgemein verbessern (Klischees entfernen)"
+
+msgid  "Skróć do 2 zdań"
+msgstr "Auf 2 Sätze kürzen"
+
+msgid  "Przepisz jako rymowany wiersz"
+msgstr "Als Reimgedicht umschreiben"
+
+msgid  "Dodaj więcej emocji i głębi"
+msgstr "Mehr Emotionen und Tiefe hinzufügen"
+
+msgid  "Nadaj oficjalny, elegancki charakter"
+msgstr "Offiziellen, eleganten Charakter verleihen"
+
+msgid  "Ulepsz przez AI ✨"
+msgstr "Mit KI verbessern ✨"
+
+msgid  "Ulepszona wersja"
+msgstr "Verbesserte Version"
+
+msgid  "Kopiuj"
+msgstr "Kopieren"
+
+msgid  "Pobierz kartę"
+msgstr "Karte herunterladen"
+
+msgid  "Wybierz szablon karty"
+msgstr "Kartenvorlage wählen"
+
+msgid  "Zamknij"
+msgstr "Schließen"
+
+msgid  "Pobierz JPG"
+msgstr "JPG herunterladen"
+
+msgid  "Pobierz PDF"
+msgstr "PDF herunterladen"
+
+msgid  "Wypełnij pola „Od kogo\" i „Dla kogo\"."
+msgstr "Bitte die Felder „Von wem\" und „Für wen\" ausfüllen."
+
+msgid  "Generowanie…"
+msgstr "Generierung…"
+
+msgid  "AI ulepsza…"
+msgstr "KI verbessert…"
+
+msgid  "Skopiowano!"
+msgstr "Kopiert!"
+
+msgid  "Wystąpił błąd. Spróbuj ponownie."
+msgstr "Ein Fehler ist aufgetreten. Bitte erneut versuchen."
+
+msgid  "Kliknij, aby edytować"
+msgstr "Zum Bearbeiten klicken"
+
+msgid  "słów"
+msgstr "Wörter"
+
+msgid  "znaków"
+msgstr "Zeichen"
+
+msgid  "Generator nie jest skonfigurowany. Skontaktuj się z administratorem."
+msgstr "Generator ist nicht konfiguriert. Bitte Administrator kontaktieren."
+
+msgid  "Osiągnąłeś dzienny limit generowania życzeń. Wróć jutro!"
+msgstr "Du hast das tägliche Limit erreicht. Komm morgen wieder!"
+
+msgid  "Proszę wypełnić pola „Od kogo\" i „Dla kogo\"."
+msgstr "Bitte die Felder „Von wem\" und „Für wen\" ausfüllen."
+
+msgid  "Nieprawidłowa okazja."
+msgstr "Ungültiger Anlass."
+
+msgid  "Nieprawidłowy ton."
+msgstr "Ungültiger Ton."
+
+msgid  "Generator nie jest skonfigurowany."
+msgstr "Generator ist nicht konfiguriert."
+
+msgid  "Osiągnąłeś dzienny limit. Wróć jutro!"
+msgstr "Du hast das tägliche Limit erreicht. Komm morgen wieder!"
+
+msgid  "Tekst do ulepszenia jest za krótki."
+msgstr "Der zu verbessernde Text ist zu kurz."
+
+msgid  "Brak uprawnień."
+msgstr "Keine Berechtigung."
+
+msgid  "Urodziny"
+msgstr "Geburtstag"
+
+msgid  "Chrzest Święty"
+msgstr "Heilige Taufe"
+
+msgid  "Pierwszy Roczek"
+msgstr "Erster Geburtstag"
+
+msgid  "Narodziny dziecka"
+msgstr "Geburt eines Kindes"
+
+msgid  "Komunia Święta"
+msgstr "Heilige Kommunion"
+
+msgid  "Imieniny"
+msgstr "Namenstag"
+
+msgid  "Ślub"
+msgstr "Hochzeit"
+
+msgid  "Rocznica Ślubu"
+msgstr "Hochzeitsanniversar"
+
+msgid  "Wielkanoc"
+msgstr "Ostern"
+
+msgid  "Boże Narodzenie"
+msgstr "Weihnachten"
+
+msgid  "Awans / Sukces zawodowy"
+msgstr "Beförderung / Beruflicher Erfolg"
+
+msgid  "Nowy Rok"
+msgstr "Neujahr"
+
+msgid  "Wzruszający i sentymentalny"
+msgstr "Rührend und sentimental"
+
+msgid  "Mądry i refleksyjny"
+msgstr "Weise und nachdenklich"
+
+msgid  "Śmieszny i rymowany"
+msgstr "Lustig und reimend"
+
+msgid  "Krótki i nowoczesny"
+msgstr "Kurz und modern"
+
+msgid  "Oficjalny i elegancki"
+msgstr "Offiziell und elegant"
+
+msgid  "Poetycki i metaforyczny"
+msgstr "Poetisch und metaphorisch"
+
+msgid  "Krótkie (2 zdania)"
+msgstr "Kurz (2 Sätze)"
+
+msgid  "Standardowe (3–5 zdań)"
+msgstr "Standard (3–5 Sätze)"
+
+msgid  "Rozbudowane (6–8 zdań)"
+msgstr "Ausführlich (6–8 Sätze)"
+
+msgid  "Wiersz / Poemat"
+msgstr "Gedicht / Poem"
+
+msgid  "API Google Gemini"
+msgstr "Google Gemini API"
+
+msgid  "Klucz API"
+msgstr "API-Schlüssel"
+
+msgid  "Klucz API z %s."
+msgstr "API-Schlüssel von %s."
+
+msgid  "Model Gemini"
+msgstr "Gemini-Modell"
+
+msgid  "Test połączenia"
+msgstr "Verbindungstest"
+
+msgid  "Testuj klucz API"
+msgstr "API-Schlüssel testen"
+
+msgid  "Generowanie"
+msgstr "Generierung"
+
+msgid  "Dzienny limit na IP"
+msgstr "Tageslimit pro IP"
+
+msgid  "Maks. generowań (każde kliknięcie = 1). Wpisz 0 = brak limitu."
+msgstr "Max. Generierungen (jeder Klick = 1). 0 eingeben = kein Limit."
+
+msgid  "Domyślna liczba wariantów"
+msgstr "Standardanzahl der Varianten"
+
+msgid  "Ile propozycji jednocześnie (1–5). Można nadpisać atrybutem shortcode %s."
+msgstr "Wie viele Vorschläge gleichzeitig (1–5). Kann mit Shortcode-Attribut %s überschrieben werden."
+
+msgid  "Zapisz ustawienia"
+msgstr "Einstellungen speichern"
+
+msgid  "Życzeń łącznie"
+msgstr "Wünsche gesamt"
+
+msgid  "Dzisiaj"
+msgstr "Heute"
+
+msgid  "Model AI"
+msgstr "KI-Modell"
+
+msgid  "Limit per IP"
+msgstr "Limit pro IP"
+
+msgid  "Brak"
+msgstr "Kein"
+
+msgid  "Popularność okazji"
+msgstr "Anlassbeliebtheit"
+
+msgid  "Okazja"
+msgstr "Anlass"
+
+msgid  "Liczba życzeń"
+msgstr "Anzahl der Wünsche"
+
+msgid  "Udział"
+msgstr "Anteil"
+
+msgid  "Shortcode"
+msgstr ""
+
+msgid  "Wklej na dowolnej stronie lub poście:"
+msgstr "Auf jeder Seite oder in einem Beitrag einfügen:"
+
+msgid  "Opcjonalne atrybuty:"
+msgstr "Optionale Attribute:"
+
+msgid  "Łącznie: %1$s życzeń — strona %2$s z %3$s"
+msgstr "Gesamt: %1$s Wünsche — Seite %2$s von %3$s"
+
+msgid  "Brak wygenerowanych życzeń."
+msgstr "Keine generierten Wünsche."
+
+msgid  "Data"
+msgstr "Datum"
+
+msgid  "Ton"
+msgstr "Ton"
+
+msgid  "Od / Dla"
+msgstr "Von / Für"
+
+msgid  "Treść życzeń"
+msgstr "Wunschinhalt"
