@@ -45,8 +45,6 @@
 	   ============================================================ */
 
 	var isGenerating = false;
-	var libsLoaded   = false;
-	var libsPromise  = null;
 
 	/* ============================================================
 	   Helpers
@@ -90,39 +88,6 @@
 		}).catch(function () {
 			showToast('Błąd kopiowania — spróbuj ręcznie.');
 		});
-	}
-
-	/* ============================================================
-	   Lazy load html2canvas + jsPDF
-	   ============================================================ */
-
-	function loadScript(src) {
-		return new Promise(function (resolve, reject) {
-			if (document.querySelector('script[src="' + src + '"]')) {
-				resolve(); return;
-			}
-			var s = document.createElement('script');
-			s.src     = src;
-			s.async   = true;
-			s.onload  = resolve;
-			s.onerror = function () { reject(new Error('Failed to load ' + src)); };
-			document.head.appendChild(s);
-		});
-	}
-
-	function ensureLibs() {
-		if (libsLoaded) return Promise.resolve();
-		if (libsPromise) return libsPromise;
-		libsPromise = Promise.all([
-			loadScript(BWG.cdn.html2canvas),
-			loadScript(BWG.cdn.jspdf),
-		]).then(function () {
-			libsLoaded = true;
-		}).catch(function (err) {
-			libsPromise = null;
-			throw err;
-		});
-		return libsPromise;
 	}
 
 	/* ============================================================
@@ -536,34 +501,32 @@
 
 		if (btn) { btn.disabled = true; btn.textContent = '⏳ Generowanie…'; }
 
-		ensureLibs().then(function () {
-			var card = document.getElementById('bwg-preview-card');
-			/* global html2canvas, jspdf */
-			html2canvas(card, { scale: 2, backgroundColor: null, useCORS: true }).then(function (canvas) {
-				if (format === 'jpg') {
-					var link = document.createElement('a');
-					link.download = exportFilename + '.jpg';
-					link.href = canvas.toDataURL('image/jpeg', 0.92);
-					link.click();
-					showToast('Pobrano JPG!');
-				} else {
-					var imgData = canvas.toDataURL('image/jpeg', 0.92);
-					var doc     = new jspdf.jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
-					var pageW   = 210;
-					var margin  = 20;
-					var imgW    = pageW - margin * 2;
-					var imgH    = (canvas.height * imgW) / canvas.width;
-					doc.addImage(imgData, 'JPEG', margin, margin, imgW, imgH);
-					doc.save(exportFilename + '.pdf');
-					showToast('Pobrano PDF!');
-				}
-				if (btn) {
-					btn.disabled    = false;
-					btn.textContent = format === 'jpg' ? '⬇️ Pobierz JPG' : '⬇️ Pobierz PDF';
-				}
-			});
+		/* global html2canvas, jspdf */
+		var card = document.getElementById('bwg-preview-card');
+		html2canvas(card, { scale: 2, backgroundColor: null, useCORS: true }).then(function (canvas) {
+			if (format === 'jpg') {
+				var link = document.createElement('a');
+				link.download = exportFilename + '.jpg';
+				link.href = canvas.toDataURL('image/jpeg', 0.92);
+				link.click();
+				showToast('Pobrano JPG!');
+			} else {
+				var imgData = canvas.toDataURL('image/jpeg', 0.92);
+				var doc     = new jspdf.jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+				var pageW   = 210;
+				var margin  = 20;
+				var imgW    = pageW - margin * 2;
+				var imgH    = (canvas.height * imgW) / canvas.width;
+				doc.addImage(imgData, 'JPEG', margin, margin, imgW, imgH);
+				doc.save(exportFilename + '.pdf');
+				showToast('Pobrano PDF!');
+			}
+			if (btn) {
+				btn.disabled    = false;
+				btn.textContent = format === 'jpg' ? '⬇️ Pobierz JPG' : '⬇️ Pobierz PDF';
+			}
 		}).catch(function () {
-			showToast('Nie udało się załadować bibliotek eksportu. Sprawdź połączenie.', 4000);
+			showToast('Błąd eksportu karty.', 4000);
 			if (btn) {
 				btn.disabled    = false;
 				btn.textContent = format === 'jpg' ? '⬇️ Pobierz JPG' : '⬇️ Pobierz PDF';

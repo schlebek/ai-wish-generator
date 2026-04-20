@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.3.0] - 2026-04-19
+
+### Added
+- Pełna internacjonalizacja (i18n) — wszystkie ciągi tekstowe opakowane w `__()`/`esc_html_e()`
+- `bwg_load_textdomain()` — ładowanie domeny tłumaczeń z katalogu `languages/`
+- Katalog `languages/` gotowy na pliki `.po`/`.mo`
+- Biblioteki html2canvas (1.4.1) i jsPDF (2.5.1) dołączone lokalnie w `assets/js/vendor/`
+- Rejestracja bibliotek przez `wp_register_script()` jako zależności `bwg-frontend`
+- `readme.txt` w formacie WordPress.org z sekcją External Services
+
+### Changed
+- Usunięto dynamiczne ładowanie bibliotek eksportu przez CDN (`loadScript`/`ensureLibs`)
+- `wp_localize_script` nie zawiera już adresów CDN
+- Shortcode zmieniony z `bebetu_ai_generator` na `ai_wish_generator`
+- Autor wtyczki zmieniony na Stanisław Chlebek
+
+### Fixed
+- Pełna zgodność z wymaganiami repozytorium WordPress.org
+
 ## [3.2.0] - 2026-04-19
 
 ### Added

@@ -11,8 +11,8 @@ class BWG_Admin {
 
 	public static function register_menu(): void {
 		add_menu_page(
-			'AI Wish Generator',
-			'AI Wish',
+			__( 'AI Wish Generator', 'ai-wish-generator' ),
+			__( 'AI Wish', 'ai-wish-generator' ),
 			'manage_options',
 			'ai-wish',
 			[ self::class, 'page_dashboard' ],
@@ -20,15 +20,21 @@ class BWG_Admin {
 			30
 		);
 		add_submenu_page(
-			'ai-wish', 'Statystyki', 'Statystyki',
+			'ai-wish',
+			__( 'Statystyki', 'ai-wish-generator' ),
+			__( 'Statystyki', 'ai-wish-generator' ),
 			'manage_options', 'ai-wish', [ self::class, 'page_dashboard' ]
 		);
 		add_submenu_page(
-			'ai-wish', 'Ustawienia', 'Ustawienia',
+			'ai-wish',
+			__( 'Ustawienia', 'ai-wish-generator' ),
+			__( 'Ustawienia', 'ai-wish-generator' ),
 			'manage_options', 'ai-wish-settings', [ self::class, 'page_settings' ]
 		);
 		add_submenu_page(
-			'ai-wish', 'Historia życzeń', 'Historia',
+			'ai-wish',
+			__( 'Historia życzeń', 'ai-wish-generator' ),
+			__( 'Historia', 'ai-wish-generator' ),
 			'manage_options', 'ai-wish-history', [ self::class, 'page_history' ]
 		);
 	}

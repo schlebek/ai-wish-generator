@@ -16,12 +16,12 @@ class BWG_Ajax {
 
 		$api_key = get_option( 'bwg_gemini_api_key' );
 		if ( ! $api_key ) {
-			wp_send_json_error( [ 'message' => 'Generator nie jest skonfigurowany. Skontaktuj się z administratorem.' ] );
+			wp_send_json_error( [ 'message' => __( 'Generator nie jest skonfigurowany. Skontaktuj się z administratorem.', 'ai-wish-generator' ) ] );
 		}
 
 		$ip_hash = BWG_Rate_Limiter::get_ip_hash();
 		if ( ! BWG_Rate_Limiter::is_allowed( $ip_hash ) ) {
-			wp_send_json_error( [ 'message' => 'Osiągnąłeś dzienny limit generowania życzeń. Wróć jutro!' ] );
+			wp_send_json_error( [ 'message' => __( 'Osiągnąłeś dzienny limit generowania życzeń. Wróć jutro!', 'ai-wish-generator' ) ] );
 		}
 
 		$sender    = sanitize_text_field( wp_unslash( $_POST['sender']    ?? '' ) );
@@ -35,7 +35,7 @@ class BWG_Ajax {
 		$force     = ! empty( $_POST['force'] ) && '1' === $_POST['force'];
 
 		if ( ! $sender || ! $recipient ) {
-			wp_send_json_error( [ 'message' => 'Proszę wypełnić pola „Od kogo" i „Dla kogo".' ] );
+			wp_send_json_error( [ 'message' => __( 'Proszę wypełnić pola „Od kogo" i „Dla kogo".', 'ai-wish-generator' ) ] );
 		}
 
 		$all_occasions = bwg_get_occasions();
@@ -43,10 +43,10 @@ class BWG_Ajax {
 		$all_lengths   = bwg_get_lengths();
 
 		if ( ! isset( $all_occasions[ $occasion ] ) ) {
-			wp_send_json_error( [ 'message' => 'Nieprawidłowa okazja.' ] );
+			wp_send_json_error( [ 'message' => __( 'Nieprawidłowa okazja.', 'ai-wish-generator' ) ] );
 		}
 		if ( ! isset( $all_tones[ $tone ] ) ) {
-			wp_send_json_error( [ 'message' => 'Nieprawidłowy ton.' ] );
+			wp_send_json_error( [ 'message' => __( 'Nieprawidłowy ton.', 'ai-wish-generator' ) ] );
 		}
 		if ( ! isset( $all_lengths[ $length ] ) ) {
 			$length = 'standardowe';
@@ -112,19 +112,19 @@ class BWG_Ajax {
 
 		$api_key = get_option( 'bwg_gemini_api_key' );
 		if ( ! $api_key ) {
-			wp_send_json_error( [ 'message' => 'Generator nie jest skonfigurowany.' ] );
+			wp_send_json_error( [ 'message' => __( 'Generator nie jest skonfigurowany.', 'ai-wish-generator' ) ] );
 		}
 
 		$ip_hash = BWG_Rate_Limiter::get_ip_hash();
 		if ( ! BWG_Rate_Limiter::is_allowed( $ip_hash ) ) {
-			wp_send_json_error( [ 'message' => 'Osiągnąłeś dzienny limit. Wróć jutro!' ] );
+			wp_send_json_error( [ 'message' => __( 'Osiągnąłeś dzienny limit. Wróć jutro!', 'ai-wish-generator' ) ] );
 		}
 
 		$text      = sanitize_textarea_field( wp_unslash( $_POST['text']      ?? '' ) );
 		$direction = sanitize_key( $_POST['direction'] ?? 'ogolne' );
 
 		if ( mb_strlen( $text ) < 10 ) {
-			wp_send_json_error( [ 'message' => 'Tekst do ulepszenia jest za krótki.' ] );
+			wp_send_json_error( [ 'message' => __( 'Tekst do ulepszenia jest za krótki.', 'ai-wish-generator' ) ] );
 		}
 
 		$allowed_directions = [ 'ogolne', 'skroc', 'dodaj_rym', 'wiecej_emocji', 'oficjalny' ];
@@ -159,7 +159,7 @@ class BWG_Ajax {
 	public static function handle_test_api(): void {
 		check_ajax_referer( 'bwg_admin', 'nonce' );
 		if ( ! current_user_can( 'manage_options' ) ) {
-			wp_send_json_error( [ 'message' => 'Brak uprawnień.' ] );
+			wp_send_json_error( [ 'message' => __( 'Brak uprawnień.', 'ai-wish-generator' ) ] );
 		}
 
 		$api_key = sanitize_text_field( wp_unslash( $_POST['api_key'] ?? '' ) );
